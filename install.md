@@ -6,7 +6,7 @@
 - [x] General
 - [x] Desktop & Screen Saver
   <details><summary>Hot Corners</summary>
-  ![Active Screen Corners](https://user-images.githubusercontent.com/6315466/68489077-4a89e380-023e-11ea-98d4-39b7548cb0ae.png)
+  <img alt="Active Screen Corners" src="https://user-images.githubusercontent.com/6315466/68489077-4a89e380-023e-11ea-98d4-39b7548cb0ae.png">
   </details>
 - [x] Display Settings
 - [x] Dock
