@@ -337,6 +337,39 @@ Clone your personal [dotfiles](https://github.com/zainfathoni/dotfiles) reposito
 
 ```bash
 $ git clone https://github.com/zainfathoni/dotfiles.git
+Cloning into 'dotfiles'...
+remote: Enumerating objects: 56, done.
+remote: Counting objects: 100% (56/56), done.
+remote: Compressing objects: 100% (40/40), done.
+remote: Total 164 (delta 21), reused 46 (delta 15), pack-reused 108
+Receiving objects: 100% (164/164), 54.99 KiB | 244.00 KiB/s, done.
+Resolving deltas: 100% (74/74), done.
+
+$ cd dotfiles
+
+$ ./install
+Submodule 'dotbot' (https://github.com/anishathalye/dotbot) registered for path 'dotbot'
+Cloning into '/Users/zain/Code/GitHub/zainfathoni/dotfiles/dotbot'...
+Submodule path 'dotbot': checked out 'fe9ca6f5ede35d16f28e0c5db781fb39437fd171'
+Submodule 'lib/pyyaml' (https://github.com/anishathalye/pyyaml) registered for path 'dotbot/lib/pyyaml'
+Cloning into '/Users/zain/Code/GitHub/zainfathoni/dotfiles/dotbot/lib/pyyaml'...
+Submodule path 'dotbot/lib/pyyaml': checked out 'f30c956c11aa6b5e7827fe5840cc9ed40b938d17'
+All targets have been cleaned
+Creating link ~/bamboo-agent.cfg.xml -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/bamboo-agent.cfg.xml
+Creating link ~/.dotfiles -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/
+Creating link ~/.gitconfig -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/gitconfig
+Creating link ~/.gitconfig_ninjavan -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/gitconfig_ninjavan
+Creating link ~/.gitconfig_zainfathoni -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/gitconfig_zainfathoni
+Creating link ~/.gitignore_global -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/gitignore_global
+Creating directory /Users/zain/.ssh
+Creating link ~/.ssh/config -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/ssh/config
+Creating link ~/.ssl -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/ssl
+Creating link ~/.vimrc -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/vimrc
+Creating link ~/.zsh -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/zsh
+Creating link ~/.zshrc -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/zshrc
+All links have been set up
+
+==> All tasks executed successfully
 ```
 
 </details>

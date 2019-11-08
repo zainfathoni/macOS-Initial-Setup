@@ -42,6 +42,7 @@
     ![Keyboard Shortcuts](https://user-images.githubusercontent.com/6315466/68488810-c172ac80-023d-11ea-93f7-794b9b3b7c10.png)
 - [x] [GitKraken](https://www.gitkraken.com/)
 - [x] [Visual Studio Code](https://code.visualstudio.com/)
+  - [x] Configure [launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
   - [x] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
     - [ ] Download Settings from [Visual Studio Code Settings Sync Gist](https://gist.github.com/zainfathoni/25e37a9e58c34e61b8dcc63739678b40)
 - [x] [Logi Options](http://logitech.com/options)
