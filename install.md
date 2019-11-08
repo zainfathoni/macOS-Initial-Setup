@@ -54,7 +54,7 @@
 - [ ] GPG Key for Commit Signing
 
 ### SSH
-- [ ]
+- [ ] 
 
 ### Terminal
-- [ ] [dotfiles](https://github.com/zainfathoni/dotfiles)
+Please refer to [terminal.md](https://gist.github.com/zainfathoni/51a508565f837e923671eb419deb2199/raw/terminal.md) file
