@@ -329,21 +329,9 @@ Emacs Lisp files have been installed to:
 
 </details>
 
-### SSH
-
-[Add your SSH key to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
-
-<details>
-
-```bash
-$ eval "$(ssh-agent -s)"
-```
-
-</details>
-
 ### Dotfiles
 
-Clone your personal [dotfiles](https://github.com/zainfathoni/dotfiles) repository.
+Clone your personal [dotfiles](https://github.com/zainfathoni/dotfiles) repository over **HTTPS** using [personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
 
 <details><summary>git clone https://github.com/zainfathoni/dotfiles.git</summary>
 
@@ -352,3 +340,18 @@ $ git clone https://github.com/zainfathoni/dotfiles.git
 ```
 
 </details>
+
+### SSH
+
+[Add your SSH key to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
+
+1. <details><summary>Start the ssh-agent in the background.</summary>
+
+```bash
+$ eval "$(ssh-agent -s)"
+Agent pid 27674
+```
+
+</details>
+
+2. 
