@@ -428,3 +428,7 @@ Identity added: /Users/zain/.ssh/zainfathoni (/Users/zain/.ssh/zainfathoni)
   <details><summary>Import GPG Key to GPG Keychain</summary>
   <img width="1217" alt="Import GPG Key to GPG Keychain" src="https://user-images.githubusercontent.com/6315466/68503332-787d2100-025a-11ea-81fd-57fac6b0a2bc.png">
   </details>
+4. If you performed above steps properly, when you're committing in Visual Studio Code for the first time, you will be prompted for a passphrase to unlock your OpenPGP secret key. Please make sure that you check ✅ **Save in Keychain** so that you don't need to enter the passphrase anymore in the future.
+  <details><summary>Save GPG Passphrase in Keychain</summary>
+  <img width="657" alt="Save GPG Passphrase in Keychain" src="https://user-images.githubusercontent.com/6315466/68504245-774cf380-025c-11ea-9be4-f36be153c301.png">
+  </details>
