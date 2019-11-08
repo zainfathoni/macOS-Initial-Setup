@@ -49,7 +49,7 @@
 - [x] [iTerm2](https://iterm2.com/)
   - [x] [Load preferences](https://stackoverflow.com/a/23356086) from `~/Documents/Configuration/iTerm2` folder
     ![iTerm2 Preferences](https://user-images.githubusercontent.com/6315466/68495483-334ff380-0248-11ea-8ca0-8330fceb9174.png)
-- [ ] [GitHub Desktop](https://desktop.github.com/)?
+- [ ] [~~GitHub Desktop~~](https://desktop.github.com/) because it does not support commit signing.
 
 ## Development Environment
 
