@@ -55,7 +55,7 @@
 
 ### Git
 
-- [ ] SSH Private key
+- [x] SSH Private key
 - [ ] GPG Key for [signing commits](https://help.github.com/en/github/authenticating-to-github/signing-commits)
 
 ### Terminal
