@@ -1,5 +1,13 @@
 # Installation
 
+## OS Preferences
+
+- [x] General
+- [x] Desktop & Screen Saver
+  - [x] Hot Corners
+- [x] Display Settings
+- [x] 
+
 ## Applications
 
 ### App Store
@@ -19,6 +27,21 @@
 - [x] [IINA](https://iina.io/)
 - [x] [Box Drive for Mac](https://www.box.com/resources/downloads)
 - [x] [Spectacle](https://www.spectacleapp.com/)
+  - [ ] Keyboard Shortcuts
+    
 - [x] [GitKraken](https://www.gitkraken.com/)
 - [x] [Visual Studio Code](https://code.visualstudio.com/)
+  - [ ] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 - [x] [Logi Options](http://logitech.com/options)
+- [ ] [iTerm2](https://iterm2.com/)
+
+## Development Environment
+
+### Git
+- [ ] GPG Key for Commit Signing
+
+### SSH
+- [ ]
+
+### Terminal
+- [ ] [dotfiles](https://github.com/zainfathoni/dotfiles)
