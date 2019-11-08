@@ -5,8 +5,9 @@
 - [x] Software Update
 - [x] General
 - [x] Desktop & Screen Saver
-  - [x] Hot Corners
+  - [x] <details><summary>Hot Corners</summary>
     ![Active Screen Corners](https://user-images.githubusercontent.com/6315466/68489077-4a89e380-023e-11ea-98d4-39b7548cb0ae.png)
+    </details>
 - [x] Display Settings
 - [x] Dock
 - [x] Internet Accounts
