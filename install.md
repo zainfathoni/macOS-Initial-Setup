@@ -15,10 +15,14 @@
 - [x] Keyboard
   - [x] Input Sources - Dvorak
 - [x] Trackpad
-  ![Trackpad](https://user-images.githubusercontent.com/6315466/68489334-d13ec080-023e-11ea-8503-a262b4676bb8.png)
+  <details><summary>Trackpad</summary>
+  <img alt="Trackpad" src="https://user-images.githubusercontent.com/6315466/68489334-d13ec080-023e-11ea-8503-a262b4676bb8.png">
+  </details>
 - [x] Mouse
 - [x] Finder Sidebar
-  ![Finder Sidebar](https://user-images.githubusercontent.com/6315466/68489849-cf293180-023f-11ea-85e7-af97ccb6cee0.png)
+  <details><summary>Finder Sidebar</summary>
+  <img alt="Finder Sidebar" src="https://user-images.githubusercontent.com/6315466/68489849-cf293180-023f-11ea-85e7-af97ccb6cee0.png">
+  </details>
 
 ## Applications
 
