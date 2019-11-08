@@ -420,3 +420,5 @@ Identity added: /Users/zain/.ssh/zainfathoni (/Users/zain/.ssh/zainfathoni)
 ### GPG Key for [signing commits](https://help.github.com/en/github/authenticating-to-github/signing-commits)
 
 1. Install [GPG Suite](https://gpgtools.org/)
+  Refer to their [first steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail) tutorial if necessary.
+2. 
