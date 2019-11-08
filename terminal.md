@@ -333,7 +333,7 @@ Emacs Lisp files have been installed to:
 
 Clone your personal [dotfiles](https://github.com/zainfathoni/dotfiles) repository over **HTTPS** using [personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
 
-<details><summary>git clone https://github.com/zainfathoni/dotfiles.git</summary>
+<details><summary>https://git.io/dotbot</summary>
 
 ```bash
 $ git clone https://github.com/zainfathoni/dotfiles.git
@@ -378,7 +378,7 @@ All links have been set up
 
 [Add your SSH key to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
 
-<details><summary>1. Start the ssh-agent in the background.</summary>
+<details><summary>Start the ssh-agent in the background.</summary>
 
 ```bash
 $ eval "$(ssh-agent -s)"
@@ -387,4 +387,31 @@ Agent pid 27674
 
 </details>
 
-2. 
+<details><summary>Symlink SSH keys from Box</summary>
+
+```bash
+$ chmod +x ~/Box/dotfiles/install-ssh-keys.sh
+
+$ ~/Box/dotfiles/install-ssh-keys.sh
+
+$ ls -al ~/.ssh
+total 0
+drwxr-xr-x   5 zain  staff   160 Nov  9 02:11 .
+drwxr-xr-x+ 37 zain  staff  1184 Nov  9 02:11 ..
+lrwxr-xr-x   1 zain  staff    55 Nov  9 01:57 config -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/ssh/config
+lrwxr-xr-x   1 zain  staff    41 Nov  9 02:11 zainfathoni -> /Users/zain/Box/dotfiles/.ssh/zainfathoni
+lrwxr-xr-x   1 zain  staff    45 Nov  9 02:11 zainfathoni.pub -> /Users/zain/Box/dotfiles/.ssh/zainfathoni.pub
+```
+
+</details>
+
+<details><summary>Add your SSH private key to the ssh-agent and store your passphrase in the keychain</summary>
+
+```bash
+$ ssh-add -K ~/.ssh/zainfathoni
+Enter passphrase for /Users/zain/.ssh/zainfathoni:
+Identity added: /Users/zain/.ssh/zainfathoni (/Users/zain/.ssh/zainfathoni)
+```
+
+</details>
+
