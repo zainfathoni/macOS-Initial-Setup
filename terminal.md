@@ -255,9 +255,9 @@ Read the analytics documentation (and how to opt-out) here:
 
 </details>
 
-### Git Version
+### Official Git
 
-Install [the latest Git version](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git#Installing-on-Mac) using Homebrew
+Install [the latest official Git version](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git#Installing-on-Mac) (as opposed to [Apple Git version](http://modulesunraveled.com/installing-git/updating-git-if-you-have-version-apple-well-official-install)) using Homebrew.
 
 <details><summary>brew install git</summary>
 
