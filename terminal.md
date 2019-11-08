@@ -415,3 +415,8 @@ Identity added: /Users/zain/.ssh/zainfathoni (/Users/zain/.ssh/zainfathoni)
 
 </details>
 
+## Advanced Environment
+
+### GPG Key for [signing commits](https://help.github.com/en/github/authenticating-to-github/signing-commits)
+
+1. Install [GPG Suite](https://gpgtools.org/)

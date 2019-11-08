@@ -57,6 +57,7 @@
     <details><summary>iTerm2 Preferences</summary>
     <img alt="iTerm2 Preferences" src="https://user-images.githubusercontent.com/6315466/68495483-334ff380-0248-11ea-8ca0-8330fceb9174.png">
     </details>
+- [x] [GPG Suite](https://gpgtools.org/)
 - [ ] [~~GitHub Desktop~~](https://desktop.github.com/) because it does not support commit signing.
 
 ## Development Environment
