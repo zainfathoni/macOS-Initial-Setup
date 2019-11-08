@@ -10,7 +10,7 @@ Right after installing [iTerm2], you must be getting this prompt:
 To update your account to use zsh, please run `chsh -s /bin/zsh`.
 For more details, please visit [Use zsh as the default shell on your Mac](https://support.apple.com/kb/HT208050).
 
-<details><summary>As instructed, run `chsh -s /bin/zsh`</summary>
+<details><summary>chsh -s /bin/zsh</summary>
 
 ```bash
 $ chsh -s /bin/zsh
@@ -22,7 +22,9 @@ Password for zain:
 
 ### Package Manager
 
-<details><summary>Install [Homebrew](https://brew.sh/) package manager.</summary>
+Install [Homebrew](https://brew.sh/) package manager.
+
+<details><summary>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</summary>
 
 ```bash
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -257,8 +259,12 @@ Read the analytics documentation (and how to opt-out) here:
 
 Install [the latest Git version](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git#Installing-on-Mac) using Homebrew
 
+<details><summary>brew install git</summary>
+
 ```bash
 $ brew install git
 ```
+
+</details>
 
 - [ ] Clone [dotfiles](https://github.com/zainfathoni/dotfiles)
