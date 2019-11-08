@@ -419,6 +419,12 @@ Identity added: /Users/zain/.ssh/zainfathoni (/Users/zain/.ssh/zainfathoni)
 
 ### GPG Key for [signing commits](https://help.github.com/en/github/authenticating-to-github/signing-commits)
 
-1. Install [GPG Suite](https://gpgtools.org/)
-  Refer to their [first steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail) tutorial if necessary.
-2. 
+1. Install [GPG Suite](https://gpgtools.org/). Refer to their [first steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail) tutorial if necessary.
+2. Install [LastPass binary-version](https://apps.apple.com/id/app/lastpass-password-manager/id926036361?mt=12) from AppStore so you can download your GPG secret key file.
+  <details><summary>GPG Key file stored at LastPass</summary>
+  <img width="382" alt="GPG Key file stored at LastPass" src="https://user-images.githubusercontent.com/6315466/68503184-2a681d80-025a-11ea-989a-a8aa6cf657b6.png">
+  </details>
+3. Import GPG Key to GPG Keychain
+  <details><summary>Import GPG Key to GPG Keychain</summary>
+  <img width="1217" alt="Import GPG Key to GPG Keychain" src="https://user-images.githubusercontent.com/6315466/68503332-787d2100-025a-11ea-81fd-57fac6b0a2bc.png">
+  </details>
