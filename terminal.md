@@ -345,7 +345,7 @@ $ git clone https://github.com/zainfathoni/dotfiles.git
 
 [Add your SSH key to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
 
-1. <details><summary>Start the ssh-agent in the background.</summary>
+<details><summary>1. Start the ssh-agent in the background.</summary>
 
 ```bash
 $ eval "$(ssh-agent -s)"
