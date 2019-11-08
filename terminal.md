@@ -4,7 +4,7 @@
 
 ### Default Shell
 
-Right after installing [iTerm2], you must be getting this prompt:
+Right after installing [iTerm2](https://iterm2.com/), you must be getting this prompt:
 
 > The default interactive shell is now zsh.
 To update your account to use zsh, please run `chsh -s /bin/zsh`.
@@ -257,7 +257,7 @@ Read the analytics documentation (and how to opt-out) here:
 
 ### Official Git
 
-Install [the latest official Git version](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git#Installing-on-Mac) (as opposed to [Apple Git version](http://modulesunraveled.com/installing-git/updating-git-if-you-have-version-apple-well-official-install)) using Homebrew.
+Install [the latest official Git version](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git#Installing-on-Mac) (as opposed to the [Apple Git version](http://modulesunraveled.com/installing-git/updating-git-if-you-have-version-apple-well-official-install)) using Homebrew.
 
 <details><summary>brew install git</summary>
 
