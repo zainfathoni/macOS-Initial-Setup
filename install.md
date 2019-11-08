@@ -40,7 +40,6 @@
 - [x] [Spectacle](https://www.spectacleapp.com/)
   - [x] Keyboard Shortcuts
     ![Keyboard Shortcuts](https://user-images.githubusercontent.com/6315466/68488810-c172ac80-023d-11ea-93f7-794b9b3b7c10.png)
-    
 - [x] [GitKraken](https://www.gitkraken.com/)
 - [x] [Visual Studio Code](https://code.visualstudio.com/)
   - [x] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
@@ -51,11 +50,10 @@
 ## Development Environment
 
 ### Git
+
 - [ ] SSH Private key
 - [ ] GPG Key for [signing commits](https://help.github.com/en/github/authenticating-to-github/signing-commits)
 
-### SSH
-- [ ] 
-
 ### Terminal
+
 Please refer to [terminal.md](https://gist.github.com/zainfathoni/51a508565f837e923671eb419deb2199/raw/terminal.md) file
