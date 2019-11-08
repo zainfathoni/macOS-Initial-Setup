@@ -46,6 +46,7 @@
     - [ ] Download Settings from [Visual Studio Code Settings Sync Gist](https://gist.github.com/zainfathoni/25e37a9e58c34e61b8dcc63739678b40)
 - [x] [Logi Options](http://logitech.com/options)
 - [x] [iTerm2](https://iterm2.com/)
+- [ ] [GitHub Desktop](https://desktop.github.com/)?
 
 ## Development Environment
 
