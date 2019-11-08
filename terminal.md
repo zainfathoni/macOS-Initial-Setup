@@ -448,3 +448,47 @@ Please make sure that you check ✅ **Save in Keychain** so that you don't need 
 #### 5. To ensure that it's working, restart the laptop and try committing again through Visual Studio Code.
 
 You should not be required to enter the passphrase anymore while keep getting your commits signed properly.
+
+<details><summary>Signed Commits 🎉</summary>
+<img width="902" alt="Signed Commits" src="https://user-images.githubusercontent.com/6315466/68505182-87fe6900-025e-11ea-8342-d5ab5d217e23.png">
+</details>
+
+## Cosmetics
+
+Based on [Badassify your terminal and shell](https://jilles.me/badassify-your-terminal-and-shell/) article.
+
+### Install [oh-my-zsh](https://ohmyz.sh/)
+
+<details><summary>Install oh-my-zsh</summary>
+
+```bash
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+Cloning Oh My Zsh...
+Cloning into '/Users/zain/.oh-my-zsh'...
+remote: Enumerating objects: 1102, done.
+remote: Counting objects: 100% (1102/1102), done.
+remote: Compressing objects: 100% (1054/1054), done.
+remote: Total 1102 (delta 23), reused 884 (delta 19), pack-reused 0
+Receiving objects: 100% (1102/1102), 721.38 KiB | 401.00 KiB/s, done.
+Resolving deltas: 100% (23/23), done.
+
+Looking for an existing zsh config...
+Found ~/.zshrc. Backing up to /Users/zain/.zshrc.pre-oh-my-zsh
+Using the Oh My Zsh template file and adding it to ~/.zshrc.
+
+         __                                     __
+  ____  / /_     ____ ___  __  __   ____  _____/ /_
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / /
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/
+                        /____/                       ....is now installed!
+
+
+Please look over the ~/.zshrc file to select plugins, themes, and options.
+
+p.s. Follow us on https://twitter.com/ohmyzsh
+
+p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/collections/oh-my-zsh
+```
+
+</details>
