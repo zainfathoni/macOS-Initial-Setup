@@ -492,3 +492,38 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 ```
 
 </details>
+
+### Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
+<details><summary>Install zsh-syntax-highlighting</summary>
+
+```bash
+$ cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
+Cloning into 'zsh-syntax-highlighting'...
+remote: Enumerating objects: 104, done.
+remote: Counting objects: 100% (104/104), done.
+remote: Compressing objects: 100% (65/65), done.
+remote: Total 5492 (delta 66), reused 70 (delta 39), pack-reused 5388
+Receiving objects: 100% (5492/5492), 1.13 MiB | 340.00 KiB/s, done.
+Resolving deltas: 100% (3642/3642), done.
+```
+
+</details>
+
+### Install [z](https://github.com/rupa/z)
+
+<details><summary>Install z</summary>
+
+```bash
+$ brew install z
+==> Downloading https://github.com/rupa/z/archive/v1.9.tar.gz
+==> Downloading from https://codeload.github.com/rupa/z/tar.gz/v1.9
+##O#- #
+==> Caveats
+For Bash or Zsh, put something like this in your $HOME/.bashrc or $HOME/.zshrc:
+  . /usr/local/etc/profile.d/z.sh
+==> Summary
+🍺  /usr/local/Cellar/z/1.9: 5 files, 20.7KB, built in 4 seconds
+```
+
+</details>
