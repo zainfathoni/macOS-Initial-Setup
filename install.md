@@ -46,12 +46,13 @@
   - [x] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
     - [ ] Download Settings from [Visual Studio Code Settings Sync Gist](https://gist.github.com/zainfathoni/25e37a9e58c34e61b8dcc63739678b40)
 - [x] [Logi Options](http://logitech.com/options)
-- [ ] [iTerm2](https://iterm2.com/)
+- [x] [iTerm2](https://iterm2.com/)
 
 ## Development Environment
 
 ### Git
-- [ ] GPG Key for Commit Signing
+- [ ] SSH Private key
+- [ ] GPG Key for [signing commits](https://help.github.com/en/github/authenticating-to-github/signing-commits)
 
 ### SSH
 - [ ] 
