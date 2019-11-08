@@ -387,7 +387,7 @@ Agent pid 27674
 
 </details>
 
-<details><summary>Symlink SSH keys from Box</summary>
+<details><summary>Symlink SSH keys from <a href="https://www.box.com/resources/downloads">Box</a> folder</summary>
 
 ```bash
 $ chmod +x ~/Box/dotfiles/install-ssh-keys.sh
