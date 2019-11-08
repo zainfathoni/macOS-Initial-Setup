@@ -43,8 +43,9 @@
 - [x] [IINA](https://iina.io/)
 - [x] [Box Drive for Mac](https://www.box.com/resources/downloads)
 - [x] [Spectacle](https://www.spectacleapp.com/)
-  - [x] Keyboard Shortcuts
-    ![Keyboard Shortcuts](https://user-images.githubusercontent.com/6315466/68488810-c172ac80-023d-11ea-93f7-794b9b3b7c10.png)
+  <details><summary>Keyboard Shortcuts</summary>
+  <img alt="Keyboard Shortcuts" src="https://user-images.githubusercontent.com/6315466/68488810-c172ac80-023d-11ea-93f7-794b9b3b7c10.png">
+  </details>
 - [x] [GitKraken](https://www.gitkraken.com/)
 - [x] [Visual Studio Code](https://code.visualstudio.com/)
   - [x] Configure [launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
@@ -53,7 +54,9 @@
 - [x] [Logi Options](http://logitech.com/options)
 - [x] [iTerm2](https://iterm2.com/)
   - [x] [Load preferences](https://stackoverflow.com/a/23356086) from `~/Documents/Configuration/iTerm2` folder
-    ![iTerm2 Preferences](https://user-images.githubusercontent.com/6315466/68495483-334ff380-0248-11ea-8ca0-8330fceb9174.png)
+    <details><summary>iTerm2 Preferences</summary>
+    <img alt="iTerm2 Preferences" src="https://user-images.githubusercontent.com/6315466/68495483-334ff380-0248-11ea-8ca0-8330fceb9174.png">
+    </details>
 - [ ] [~~GitHub Desktop~~](https://desktop.github.com/) because it does not support commit signing.
 
 ## Development Environment
