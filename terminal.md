@@ -329,4 +329,26 @@ Emacs Lisp files have been installed to:
 
 </details>
 
-- [ ] Clone [dotfiles](https://github.com/zainfathoni/dotfiles)
+### SSH
+
+[Add your SSH key to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent)
+
+<details>
+
+```bash
+$ eval "$(ssh-agent -s)"
+```
+
+</details>
+
+### Dotfiles
+
+Clone your personal [dotfiles](https://github.com/zainfathoni/dotfiles) repository.
+
+<details><summary>git clone https://github.com/zainfathoni/dotfiles.git</summary>
+
+```bash
+$ git clone https://github.com/zainfathoni/dotfiles.git
+```
+
+</details>
