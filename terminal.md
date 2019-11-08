@@ -419,16 +419,32 @@ Identity added: /Users/zain/.ssh/zainfathoni (/Users/zain/.ssh/zainfathoni)
 
 ### GPG Key for [signing commits](https://help.github.com/en/github/authenticating-to-github/signing-commits)
 
-1. Install [GPG Suite](https://gpgtools.org/). Refer to their [first steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail) tutorial if necessary.
-2. Install [LastPass binary-version](https://apps.apple.com/id/app/lastpass-password-manager/id926036361?mt=12) from AppStore so you can download your GPG secret key file.
-  <details><summary>GPG Key file stored at LastPass</summary>
-  <img width="382" alt="GPG Key file stored at LastPass" src="https://user-images.githubusercontent.com/6315466/68503184-2a681d80-025a-11ea-989a-a8aa6cf657b6.png">
-  </details>
-3. Import GPG Key to GPG Keychain
-  <details><summary>Import GPG Key to GPG Keychain</summary>
-  <img width="1217" alt="Import GPG Key to GPG Keychain" src="https://user-images.githubusercontent.com/6315466/68503332-787d2100-025a-11ea-81fd-57fac6b0a2bc.png">
-  </details>
-4. If you performed above steps properly, when you're committing in Visual Studio Code for the first time, you will be prompted for a passphrase to unlock your OpenPGP secret key. Please make sure that you check ✅ **Save in Keychain** so that you don't need to enter the passphrase anymore in the future.
-  <details><summary>Save GPG Passphrase in Keychain</summary>
-  <img width="657" alt="Save GPG Passphrase in Keychain" src="https://user-images.githubusercontent.com/6315466/68504245-774cf380-025c-11ea-9be4-f36be153c301.png">
-  </details>
+#### 1. Install [GPG Suite](https://gpgtools.org/).
+
+Refer to their [first steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail) tutorial if necessary.
+
+#### 2. Install [LastPass binary-version](https://apps.apple.com/id/app/lastpass-password-manager/id926036361?mt=12) from AppStore
+
+So you can download your GPG secret key file.
+
+<details><summary>GPG Key file stored at LastPass</summary>
+<img width="382" alt="GPG Key file stored at LastPass" src="https://user-images.githubusercontent.com/6315466/68503184-2a681d80-025a-11ea-989a-a8aa6cf657b6.png">
+</details>
+
+#### 3. Import GPG Key to GPG Keychain
+
+<details><summary>Import GPG Key to GPG Keychain</summary>
+<img width="1217" alt="Import GPG Key to GPG Keychain" src="https://user-images.githubusercontent.com/6315466/68503332-787d2100-025a-11ea-81fd-57fac6b0a2bc.png">
+</details>
+
+#### 4. If you performed above steps properly, when you're committing in Visual Studio Code for the first time, you will be prompted for a passphrase to unlock your OpenPGP secret key.
+
+Please make sure that you check ✅ **Save in Keychain** so that you don't need to enter the passphrase anymore in the future.
+
+<details><summary>Save GPG Passphrase in Keychain</summary>
+<img width="657" alt="Save GPG Passphrase in Keychain" src="https://user-images.githubusercontent.com/6315466/68504245-774cf380-025c-11ea-9be4-f36be153c301.png">
+</details>
+
+#### 5. To ensure that it's working, restart the laptop and try committing again through Visual Studio Code.
+
+You should not be required to enter the passphrase anymore while keep getting your commits signed properly.
