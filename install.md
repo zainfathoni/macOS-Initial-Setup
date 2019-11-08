@@ -2,11 +2,20 @@
 
 ## OS Preferences
 
+- [x] Software Update
 - [x] General
 - [x] Desktop & Screen Saver
   - [x] Hot Corners
+    ![Active Screen Corners](https://user-images.githubusercontent.com/6315466/68489077-4a89e380-023e-11ea-98d4-39b7548cb0ae.png)
 - [x] Display Settings
-- [x] 
+- [x] Dock
+- [x] Internet Accounts
+- [x] Touch ID
+- [x] Keyboard
+  - [x] Input Sources - Dvorak
+- [x] Trackpad
+  ![Trackpad](https://user-images.githubusercontent.com/6315466/68489334-d13ec080-023e-11ea-8503-a262b4676bb8.png)
+- [x] Mouse
 
 ## Applications
 
