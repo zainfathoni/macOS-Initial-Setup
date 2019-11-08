@@ -493,6 +493,21 @@ p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/col
 
 </details>
 
+### Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+
+<details><summary>Install zsh-autosuggestions</summary>
+
+```bash
+$ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+Cloning into '/Users/zain/.oh-my-zsh/custom/plugins/zsh-autosuggestions'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 2275 (delta 2), reused 4 (delta 0), pack-reused 2266
+Receiving objects: 100% (2275/2275), 519.66 KiB | 586.00 KiB/s, done.
+Resolving deltas: 100% (1449/1449), done.
+```
+
 ### Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 <details><summary>Install zsh-syntax-highlighting</summary>

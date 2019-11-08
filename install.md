@@ -49,6 +49,7 @@
 - [x] [GitKraken](https://www.gitkraken.com/)
 - [x] [Visual Studio Code](https://code.visualstudio.com/)
   - [x] Configure [launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
+  - [x] Install [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing#macos). Download the v2 font [over here](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip)
   - [x] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
     - [x] Download Settings from [Visual Studio Code Settings Sync Gist](https://gist.github.com/zainfathoni/25e37a9e58c34e61b8dcc63739678b40)
 - [x] [Logi Options](http://logitech.com/options)
@@ -59,6 +60,7 @@
     </details>
 - [x] [GPG Suite](https://gpgtools.org/)
 - [ ] [~~GitHub Desktop~~](https://desktop.github.com/) because it does not support commit signing.
+- [x] [Spotify](https://www.spotify.com/us/download/mac)
 
 ## Development Environment
 
