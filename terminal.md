@@ -14,6 +14,8 @@ As instructed, run
 
 ```bash
 $ chsh -s /bin/zsh
+Changing shell for zain.
+Password for zain:
 ```
 
 ### Package Manager
