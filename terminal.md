@@ -263,6 +263,68 @@ Install [the latest Git version](https://git-scm.com/book/en/v1/Getting-Started-
 
 ```bash
 $ brew install git
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Downloading https://homebrew.bintray.com/bottles/gettext-0.20.1.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/10/107d7f386fbeea6979f9376cdbbcf3f60943caaad61bdc754d3019ce625dffe6?__gda__=exp=1573233830~hmac=1bcb001fb839dc8886
+######################################################################## 100.0%
+==> Pouring gettext-0.20.1.catalina.bottle.tar.gz
+==> Caveats
+gettext is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD gettext library & some software gets confused if both are in the library path.
+
+If you need to have gettext first in your PATH run:
+  echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find gettext you may need to set:
+  export LDFLAGS="-L/usr/local/opt/gettext/lib"
+  export CPPFLAGS="-I/usr/local/opt/gettext/include"
+
+==> Summary
+🍺  /usr/local/Cellar/gettext/0.20.1: 1,893 files, 18.4MB
+==> Installing git dependency: pcre2
+==> Downloading https://homebrew.bintray.com/bottles/pcre2-10.33.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/7b/7b92993a7ad0487cabc4395e3633d8294896fa9ffa9e46507d9a7ef25a213ab8?__gda__=exp=1573233836~hmac=931bf03fae3350118d
+######################################################################## 100.0%
+==> Pouring pcre2-10.33.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.33: 226 files, 5.8MB
+==> Installing git
+==> Downloading https://homebrew.bintray.com/bottles/git-2.24.0.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/fa/fa754c684673a191b999528995c1dc4b0d597a95ed6a2b1dd213c8e7018885ab?__gda__=exp=1573233845~hmac=94da9661072522e3cf
+######################################################################## 100.0%
+==> Pouring git-2.24.0.catalina.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Summary
+🍺  /usr/local/Cellar/git/2.24.0: 1,547 files, 45.5MB
+==> Caveats
+==> gettext
+gettext is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD gettext library & some software gets confused if both are in the library path.
+
+If you need to have gettext first in your PATH run:
+  echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find gettext you may need to set:
+  export LDFLAGS="-L/usr/local/opt/gettext/lib"
+  export CPPFLAGS="-I/usr/local/opt/gettext/include"
+
+==> git
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
 ```
 
 </details>
