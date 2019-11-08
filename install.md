@@ -27,7 +27,8 @@
 - [x] [IINA](https://iina.io/)
 - [x] [Box Drive for Mac](https://www.box.com/resources/downloads)
 - [x] [Spectacle](https://www.spectacleapp.com/)
-  - [ ] Keyboard Shortcuts
+  - [x] Keyboard Shortcuts
+    ![Keyboard Shortcuts](https://user-images.githubusercontent.com/6315466/68488810-c172ac80-023d-11ea-93f7-794b9b3b7c10.png)
     
 - [x] [GitKraken](https://www.gitkraken.com/)
 - [x] [Visual Studio Code](https://code.visualstudio.com/)
