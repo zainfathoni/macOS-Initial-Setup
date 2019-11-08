@@ -16,6 +16,8 @@
 - [x] Trackpad
   ![Trackpad](https://user-images.githubusercontent.com/6315466/68489334-d13ec080-023e-11ea-8503-a262b4676bb8.png)
 - [x] Mouse
+- [x] Finder Sidebar
+  ![Finder Sidebar](https://user-images.githubusercontent.com/6315466/68489849-cf293180-023f-11ea-85e7-af97ccb6cee0.png)
 
 ## Applications
 
@@ -41,7 +43,8 @@
     
 - [x] [GitKraken](https://www.gitkraken.com/)
 - [x] [Visual Studio Code](https://code.visualstudio.com/)
-  - [ ] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+  - [x] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+    - [ ] Download Settings from [Visual Studio Code Settings Sync Gist](https://gist.github.com/zainfathoni/25e37a9e58c34e61b8dcc63739678b40)
 - [x] [Logi Options](http://logitech.com/options)
 - [ ] [iTerm2](https://iterm2.com/)
 
