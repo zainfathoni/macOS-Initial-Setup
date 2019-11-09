@@ -517,9 +517,9 @@ All links have been set up
 
 </details>
 
-### Install [Powerlevel10k](https://gist.github.com/kevin-smets/8568070#powerlevel9k--powerlevel10k)
+### Install Fonts
 
-<details><summary>Install Powerlevel10k</summary>
+<details><summary>Install <a href="https://gist.github.com/kevin-smets/8568070#powerlevel9k--powerlevel10k">Powerlevel10k</a></summary>
 
 ```bash
 $ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
@@ -531,6 +531,16 @@ remote: Total 10496 (delta 1), reused 5 (delta 1), pack-reused 10489
 Receiving objects: 100% (10496/10496), 54.43 MiB | 1.35 MiB/s, done.
 Resolving deltas: 100% (6548/6548), done.
 ```
+
+</details>
+
+<details><summary>Install <a href="https://gist.github.com/kevin-smets/8568070#install-a-patched-font">Source Code Pro + Font Awesome</a> patched font</summary>
+
+1. Download [SourceCodePro+Powerline+Awesome+Regular.ttf](https://github.com/Falkor/dotfiles/blob/master/fonts/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf) font
+2. [Install](https://github.com/tonsky/FiraCode/wiki/Installing#macos) the font
+3. Set this font in [iTerm2](https://iterm2.com/) (iTerm → Preferences → Profiles → Text → Change Font), best to do this for "Font" and for "Non-ASCII Font".
+   <img width="1042" alt="iTerm2 Font Settings" src="https://user-images.githubusercontent.com/6315466/68528407-530d1780-032d-11ea-98fc-64496de0480f.png">
+4. Restart [iTerm2](https://iterm2.com/) for all changes to take effect.
 
 </details>
 
