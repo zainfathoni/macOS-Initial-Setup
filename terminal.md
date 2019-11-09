@@ -455,7 +455,7 @@ You should not be required to enter the passphrase anymore while keep getting yo
 
 ## Cosmetics
 
-Based on [Badassify your terminal and shell](https://jilles.me/badassify-your-terminal-and-shell/) article.
+Based on [Badassify your terminal and shell](https://jilles.me/badassify-your-terminal-and-shell/) article and [iterm2-solarized](https://gist.github.com/kevin-smets/8568070) gist.
 
 ### Install [oh-my-zsh](https://ohmyz.sh/)
 
