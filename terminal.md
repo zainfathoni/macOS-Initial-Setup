@@ -517,6 +517,8 @@ All links have been set up
 
 </details>
 
+### TODO: Powerlevel10k
+
 ### Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
 <details><summary>Install zsh-autosuggestions</summary>
