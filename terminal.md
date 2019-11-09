@@ -489,6 +489,26 @@ Please look over the ~/.zshrc file to select plugins, themes, and options.
 p.s. Follow us on https://twitter.com/ohmyzsh
 
 p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/collections/oh-my-zsh
+
+$ mv ~/.zshrc ~/.zshrc.post-oh-my-zsh # Rename the new .zsh file from installation
+
+$ ~/Code/GitHub/zainfathoni/dotfiles/install # Reinstall dotfiles to put back the original .zsh file from dotfiles
+All targets have been cleaned
+Link exists ~/bamboo-agent.cfg.xml -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/bamboo-agent.cfg.xml
+Link exists ~/.dotfiles -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/
+Link exists ~/.gitconfig -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/gitconfig
+Link exists ~/.gitconfig_ninjavan -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/gitconfig_ninjavan
+Link exists ~/.gitconfig_zainfathoni -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/gitconfig_zainfathoni
+Link exists ~/.gitignore_global -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/gitignore_global
+Link exists ~/.hushlogin -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/hushlogin
+Link exists ~/.ssh/config -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/ssh/config
+Link exists ~/.ssl -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/ssl
+Link exists ~/.vimrc -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/vimrc
+Link exists ~/.zsh -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/zsh
+Creating link ~/.zshrc -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/zshrc
+All links have been set up
+
+==> All tasks executed successfully
 ```
 
 </details>
