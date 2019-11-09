@@ -462,7 +462,7 @@ Based on [Badassify your terminal and shell](https://jilles.me/badassify-your-te
 
 ### Install [oh-my-zsh](https://ohmyz.sh/)
 
-<details><summary>Install oh-my-zsh</summary>
+<details><summary>Install oh-my-zsh and fix <code>.zshrc</code> symlink</summary>
 
 ```bash
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -517,7 +517,9 @@ All links have been set up
 
 </details>
 
-### Install Powerlevel10k
+### Install [Powerlevel10k](https://gist.github.com/kevin-smets/8568070#powerlevel9k--powerlevel10k)
+
+<details><summary>Install Powerlevel10k</summary>
 
 ```bash
 $ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
@@ -529,6 +531,8 @@ remote: Total 10496 (delta 1), reused 5 (delta 1), pack-reused 10489
 Receiving objects: 100% (10496/10496), 54.43 MiB | 1.35 MiB/s, done.
 Resolving deltas: 100% (6548/6548), done.
 ```
+
+</details>
 
 ### Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
