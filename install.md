@@ -36,6 +36,7 @@
 - [x] [WhatsApp](https://apps.apple.com/id/app/whatsapp-desktop/id1147396723?mt=12)
 - [x] [Todoist](https://apps.apple.com/id/app/todoist-to-do-list-tasks/id585829637?mt=12)
 - [x] [Slack](https://apps.apple.com/id/app/slack/id803453959?mt=12)
+- [x] [Skitch](https://apps.apple.com/id/app/skitch-snap-mark-up-share/id425955336?mt=12)
 
 ### Manual Download
 
