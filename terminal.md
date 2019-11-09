@@ -346,6 +346,7 @@ Receiving objects: 100% (164/164), 54.99 KiB | 244.00 KiB/s, done.
 Resolving deltas: 100% (74/74), done.
 
 $ cd dotfiles
+# blank
 
 $ ./install
 Submodule 'dotbot' (https://github.com/anishathalye/dotbot) registered for path 'dotbot'
@@ -391,8 +392,10 @@ Agent pid 27674
 
 ```bash
 $ chmod +x ~/Box/dotfiles/install-ssh-keys.sh
+# blank
 
 $ ~/Box/dotfiles/install-ssh-keys.sh
+# blank
 
 $ ls -al ~/.ssh
 total 0
@@ -419,7 +422,7 @@ Identity added: /Users/zain/.ssh/zainfathoni (/Users/zain/.ssh/zainfathoni)
 
 ### GPG Key for [signing commits](https://help.github.com/en/github/authenticating-to-github/signing-commits)
 
-#### 1. Install [GPG Suite](https://gpgtools.org/).
+#### 1. Install [GPG Suite](https://gpgtools.org/)
 
 Refer to their [first steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail) tutorial if necessary.
 
@@ -437,7 +440,7 @@ So you can download your GPG secret key file.
 <img width="1217" alt="Import GPG Key to GPG Keychain" src="https://user-images.githubusercontent.com/6315466/68503332-787d2100-025a-11ea-81fd-57fac6b0a2bc.png">
 </details>
 
-#### 4. If you performed above steps properly, when you're committing in Visual Studio Code for the first time, you will be prompted for a passphrase to unlock your OpenPGP secret key.
+#### 4. If you performed above steps properly, when you're committing in Visual Studio Code for the first time, you will be prompted for a passphrase to unlock your OpenPGP secret key
 
 Please make sure that you check ✅ **Save in Keychain** so that you don't need to enter the passphrase anymore in the future.
 
@@ -445,7 +448,7 @@ Please make sure that you check ✅ **Save in Keychain** so that you don't need 
 <img width="657" alt="Save GPG Passphrase in Keychain" src="https://user-images.githubusercontent.com/6315466/68504245-774cf380-025c-11ea-9be4-f36be153c301.png">
 </details>
 
-#### 5. To ensure that it's working, restart the laptop and try committing again through Visual Studio Code.
+#### 5. To ensure that it's working, restart the laptop and try committing again through Visual Studio Code
 
 You should not be required to enter the passphrase anymore while keep getting your commits signed properly.
 
@@ -491,6 +494,7 @@ p.s. Follow us on https://twitter.com/ohmyzsh
 p.p.s. Get stickers, shirts, and coffee mugs at https://shop.planetargon.com/collections/oh-my-zsh
 
 $ mv ~/.zshrc ~/.zshrc.post-oh-my-zsh # Rename the new .zsh file from installation
+blank
 
 $ ~/Code/GitHub/zainfathoni/dotfiles/install # Reinstall dotfiles to put back the original .zsh file from dotfiles
 All targets have been cleaned
