@@ -517,7 +517,18 @@ All links have been set up
 
 </details>
 
-### TODO: Powerlevel10k
+### Install Powerlevel10k
+
+```bash
+$ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+Cloning into '/Users/zain/.oh-my-zsh/custom/themes/powerlevel10k'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10496 (delta 1), reused 5 (delta 1), pack-reused 10489
+Receiving objects: 100% (10496/10496), 54.43 MiB | 1.35 MiB/s, done.
+Resolving deltas: 100% (6548/6548), done.
+```
 
 ### Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
