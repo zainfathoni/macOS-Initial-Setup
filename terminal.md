@@ -528,6 +528,8 @@ Receiving objects: 100% (2275/2275), 519.66 KiB | 586.00 KiB/s, done.
 Resolving deltas: 100% (1449/1449), done.
 ```
 
+</details>
+
 ### Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 <details><summary>Install zsh-syntax-highlighting</summary>
