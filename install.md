@@ -52,7 +52,7 @@
   - [x] Configure [launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
   - [x] Install [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing#macos). Download the v2 font [over here](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip)
   - [x] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-    - [x] Configure [**Gist ID**](https://gist.github.com/zainfathoni/25e37a9e58c34e61b8dcc63739678b40) & [**Access Token**](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) through the **Sync: Advanced Options** command.
+    - [ ] **[WIP]** Configure [**Gist ID**](https://gist.github.com/zainfathoni/25e37a9e58c34e61b8dcc63739678b40) & [**Access Token**](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) through the **Sync: Advanced Options** command.
       <details><summary>Settings Sync</summary>
       <img width="813" alt="Settings Sync" src="https://user-images.githubusercontent.com/6315466/68520480-f871ae00-028f-11ea-87dc-7b6b78d870cf.png">
       </details>
