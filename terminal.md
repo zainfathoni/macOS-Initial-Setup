@@ -7,8 +7,8 @@
 Right after installing [iTerm2](https://iterm2.com/), you must be getting this prompt:
 
 > The default interactive shell is now zsh.
-To update your account to use zsh, please run `chsh -s /bin/zsh`.
-For more details, please visit [Use zsh as the default shell on your Mac](https://support.apple.com/kb/HT208050).
+> To update your account to use zsh, please run `chsh -s /bin/zsh`.
+> For more details, please visit [Use zsh as the default shell on your Mac](https://support.apple.com/kb/HT208050).
 
 <details><summary>chsh -s /bin/zsh</summary>
 
@@ -543,24 +543,6 @@ remote: Compressing objects: 100% (65/65), done.
 remote: Total 5492 (delta 66), reused 70 (delta 39), pack-reused 5388
 Receiving objects: 100% (5492/5492), 1.13 MiB | 340.00 KiB/s, done.
 Resolving deltas: 100% (3642/3642), done.
-```
-
-</details>
-
-### Install [z](https://github.com/rupa/z)
-
-<details><summary>Install z</summary>
-
-```bash
-$ brew install z
-==> Downloading https://github.com/rupa/z/archive/v1.9.tar.gz
-==> Downloading from https://codeload.github.com/rupa/z/tar.gz/v1.9
-##O#- #
-==> Caveats
-For Bash or Zsh, put something like this in your $HOME/.bashrc or $HOME/.zshrc:
-  . /usr/local/etc/profile.d/z.sh
-==> Summary
-🍺  /usr/local/Cellar/z/1.9: 5 files, 20.7KB, built in 4 seconds
 ```
 
 </details>
