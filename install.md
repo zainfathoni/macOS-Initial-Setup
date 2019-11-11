@@ -68,11 +68,6 @@
 
 ## Development Environment
 
-### Git
-
-- [x] SSH Private key
-- [x] GPG Key for [signing commits](https://help.github.com/en/github/authenticating-to-github/signing-commits)
-
 ### Terminal
 
-Please refer to [terminal.md](https://gist.github.com/zainfathoni/51a508565f837e923671eb419deb2199/raw/terminal.md) file
+Please refer to [terminal.md](#terminal-setup) file
