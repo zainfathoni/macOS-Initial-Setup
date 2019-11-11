@@ -462,7 +462,7 @@ Based on [Badassify your terminal and shell](https://jilles.me/badassify-your-te
 
 ### Install [oh-my-zsh](https://ohmyz.sh/)
 
-<details><summary>Install oh-my-zsh, fix <code>.zshrc</code> symlink, and set <code>$ZSH</code> environment variable in <code>.zprofile</code> file</summary>
+<details><summary>Install oh-my-zsh and fix <code>.zshrc</code> symlink</code> file</summary>
 
 ```bash
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -513,13 +513,6 @@ Creating link ~/.zshrc -> /Users/zain/Code/GitHub/zainfathoni/dotfiles/zshrc
 All links have been set up
 
 ==> All tasks executed successfully
-
-$ echo "# Path to oh-my-zsh installation\nexport ZSH=/Users/zain/.oh-my-zsh # swap 'zain' string with your username if it's different" >> ~/.zprofile
-# blank
-
-$ cat ~/.zprofile
-# Path to oh-my-zsh installation
-export ZSH=/Users/zain/.oh-my-zsh # swap 'zain' string with your username if it's different
 ```
 
 </details>
