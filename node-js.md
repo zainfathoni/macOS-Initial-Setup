@@ -70,8 +70,51 @@ $ npm --version
 <details><summary>Install <a href="https://yarnpkg.com/en/docs/install/#mac-stable">Yarn</a> using <a href="https://github.com/yarnpkg/website/issues/913#issuecomment-506660318">Installation Script</a></summary>
 
 ```bash
-$ curl -o- -L https://yarnpkg.com/install.sh | zsh
-# blank
+$ curl -o- -L https://yarnpkg.com/install.sh | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  7152    0  7152    0     0  66841      0 --:--:-- --:--:-- --:--:-- 66841
+Installing Yarn!
+> Downloading tarball...
+
+[1/2]: https://yarnpkg.com/latest.tar.gz --> /var/folders/5q/bylvzmn17nd7zqyx6gsvr08h0000gn/T/yarn.tar.gz.XXXXXXXXXX.EnIkfC0T
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    93  100    93    0     0   1309      0 --:--:-- --:--:-- --:--:--  1291
+100   609    0   609    0     0   1164      0 --:--:-- --:--:-- --:--:--  1164
+100 1214k  100 1214k    0     0   374k      0  0:00:03  0:00:03 --:--:--  568k
+
+[2/2]: https://yarnpkg.com/latest.tar.gz.asc --> /var/folders/5q/bylvzmn17nd7zqyx6gsvr08h0000gn/T/yarn.tar.gz.XXXXXXXXXX.EnIkfC0T.asc
+100    97  100    97    0     0   4041      0 --:--:-- --:--:-- --:--:--  4041
+100   613    0   613    0     0   1583      0 --:--:-- --:--:-- --:--:--  1583
+100   832  100   832    0     0   1258      0 --:--:-- --:--:-- --:--:--  1258
+> Verifying integrity...
+gpg: key 1646B01B86E50310: public key "Yarn Packaging <yarn@dan.cx>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+gpg: Signature made Tue Oct  8 19:36:57 2019 +08
+gpg:                using RSA key 6D98490C6F1ACDDD448E45954F77679369475BAA
+gpg: Good signature from "Yarn Packaging <yarn@dan.cx>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 72EC F46A 56B4 AD39 C907  BBB7 1646 B01B 86E5 0310
+     Subkey fingerprint: 6D98 490C 6F1A CDDD 448E  4595 4F77 6793 6947 5BAA
+> GPG signature looks good
+> Extracting to ~/.yarn...
+> Adding to $PATH...
+> We've added the following to your /Users/zain/.zshrc
+> If this isn't the profile of your current shell then please add the following to your correct profile:
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+> Successfully installed Yarn 1.19.1! Please open another terminal where the `yarn` command will now be available.
+
+# Verify installation
+$ source ~/.zshrc
+#blank
+
+$ yarn --version
+1.19.1
 ```
 
 </details>
