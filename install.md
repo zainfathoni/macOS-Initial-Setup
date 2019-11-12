@@ -75,3 +75,7 @@ Please refer to [terminal.md](#terminal-setup) file
 ### NodeJS
 
 Please refer to [node-js.md](#nodejs-setup) file
+
+### Ruby
+
+Please refer to [ruby.md](#ruby-setup) file
