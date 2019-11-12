@@ -43,4 +43,11 @@ nvm
 
 ## Yarn
 
-// TODO:
+<details><summary>Install <a href="https://yarnpkg.com/en/docs/install/#mac-stable">Yarn</a> using <a href="https://github.com/yarnpkg/website/issues/913#issuecomment-506660318">Installation Script</a></summary>
+
+</details>
+
+```bash
+$ curl -o- -L https://yarnpkg.com/install.sh | zsh
+# blank
+```
