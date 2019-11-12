@@ -2,37 +2,37 @@
 
 ## [Node Version Manager](https://github.com/nvm-sh/nvm)
 
-<details><summary>Install using the <a href="https://github.com/nvm-sh/nvm#install--update-script">install script</a></summary>
+<details><summary>Install <a href="https://github.com/lukechilds/zsh-nvm#as-an-oh-my-zsh-custom-plugin">as an oh-my-zsh custom plugn</a></summary>
 
 ```bash
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | zsh
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100 13527  100 13527    0     0  30534      0 --:--:-- --:--:-- --:--:-- 30466
-=> Downloading nvm from git to '/Users/zain/.nvm'
-=> Cloning into '/Users/zain/.nvm'...
-remote: Enumerating objects: 286, done.
-remote: Counting objects: 100% (286/286), done.
-remote: Compressing objects: 100% (256/256), done.
-remote: Total 286 (delta 34), reused 93 (delta 17), pack-reused 0
-Receiving objects: 100% (286/286), 146.21 KiB | 296.00 KiB/s, done.
-Resolving deltas: 100% (34/34), done.
-=> Compressing and cleaning up git repository
-
-=> Appending nvm source string to /Users/zain/.zshrc
-=> Appending bash_completion source string to /Users/zain/.zshrc
-=> Close and reopen your terminal to start using nvm or run the following to use it now:
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+$ git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+Cloning into '/Users/zain/.oh-my-zsh/custom/plugins/zsh-nvm'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 523 (delta 1), reused 2 (delta 0), pack-reused 517
+Receiving objects: 100% (523/523), 74.10 KiB | 267.00 KiB/s, done.
+Resolving deltas: 100% (272/272), done.
 
 $ source ~/.zshrc
-# blank
+Installing nvm...
+Cloning into '/Users/zain/.nvm'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 7566 (delta 5), reused 14 (delta 4), pack-reused 7549
+Receiving objects: 100% (7566/7566), 2.50 MiB | 480.00 KiB/s, done.
+Resolving deltas: 100% (4777/4777), done.
 
 # Verify Installation https://github.com/nvm-sh/nvm#verify-installation
 $ command -v nvm
 nvm
+
+# Ensure Upgrade command is working https://github.com/lukechilds/zsh-nvm#upgrade
+$ nvm upgrade
+Installed version is v0.35.1
+Checking latest version of nvm...
+You're already up to date
 ```
 
 </details>
