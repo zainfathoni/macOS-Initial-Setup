@@ -39,7 +39,31 @@ You're already up to date
 
 ## NodeJS
 
-// TODO:
+<details><summary>Install <a href="https://github.com/nvm-sh/nvm#long-term-support">latest LTS version of NodeJS</a></summary>
+
+```bash
+$ nvm install --lts
+Installing latest LTS version.
+Downloading and installing node v12.13.0...
+Downloading https://nodejs.org/dist/v12.13.0/node-v12.13.0-darwin-x64.tar.gz...
+######################################################################################################################################################################################################################################### 100.0%
+Computing checksum with shasum -a 256
+Checksums matched!
+Now using node v12.13.0 (npm v6.12.0)
+Creating default alias: default -> lts/* (-> v12.13.0)
+
+# Verify Installation
+$ nvm current
+v12.13.0
+
+$ node --version
+v12.13.0
+
+$ npm --version
+6.12.0
+```
+
+</details>
 
 ## Yarn
 
