@@ -61,10 +61,55 @@ rvm 1.29.9 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://r
 
 ## Ruby
 
+Based on [GitLab Development Kit preparation](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/prepare.md).
+
 <details><summary>Install <a href="">Ruby</a></summary>
 
 ```bash
-# TODO:
+# Install the current gitlab Ruby version https://gitlab.com/gitlab-org/gitlab/blob/master/.ruby-version
+$ rvm install 2.6.3
+Searching for binary rubies, this might take some time.
+No binary rubies available for: osx/10.15/x86_64/ruby-2.6.3.
+Continuing with compilation. Please read 'rvm help mount' to get more information on binary rubies.
+Checking requirements for osx.
+Installing requirements for osx.
+Updating system - please wait
+Installing required packages: autoconf, automake, libtool, pkg-config, coreutils, libyaml, libksba, readline, zlib, openssl@1.1 - please wait
+Certificates bundle '/usr/local/etc/openssl@1.1/cert.pem' is already up to date.
+Requirements installation successful.
+Installing Ruby from source to: /Users/zain/.rvm/rubies/ruby-2.6.3, this may take a while depending on your cpu(s)...
+ruby-2.6.3 - #downloading ruby-2.6.3, this may take a while depending on your connection...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 13.8M  100 13.8M    0     0  17.5M      0 --:--:-- --:--:-- --:--:-- 17.5M
+ruby-2.6.3 - #extracting ruby-2.6.3 to /Users/zain/.rvm/src/ruby-2.6.3 - please wait
+ruby-2.6.3 - #configuring - please wait
+ruby-2.6.3 - #post-configuration - please wait
+ruby-2.6.3 - #compiling - please wait
+ruby-2.6.3 - #installing - please wait
+ruby-2.6.3 - #making binaries executable - please wait
+ruby-2.6.3 - #downloading rubygems-3.0.6
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  866k  100  866k    0     0  7468k      0 --:--:-- --:--:-- --:--:-- 7468k
+No checksum for downloaded archive, recording checksum in user configuration.
+ruby-2.6.3 - #extracting rubygems-3.0.6 - please wait
+ruby-2.6.3 - #removing old rubygems - please wait
+$LANG was empty, setting up LANG=en_US.US-ASCII, if it fails again try setting LANG to something sane and try again.
+ruby-2.6.3 - #installing rubygems-3.0.6 - please wait
+ruby-2.6.3 - #gemset created /Users/zain/.rvm/gems/ruby-2.6.3@global
+ruby-2.6.3 - #importing gemset /Users/zain/.rvm/gemsets/global.gems - please wait
+ruby-2.6.3 - #generating global wrappers - please wait
+ruby-2.6.3 - #gemset created /Users/zain/.rvm/gems/ruby-2.6.3
+ruby-2.6.3 - #importing gemsetfile /Users/zain/.rvm/gemsets/default.gems evaluated to empty gem list
+ruby-2.6.3 - #generating default wrappers - please wait
+ruby-2.6.3 - #adjusting #shebangs for (gem irb erb ri rdoc testrb rake).
+Install of ruby-2.6.3 - #complete
+Ruby was built without documentation, to build it run: rvm docs generate-ri
+
+# Verify installation
+$ ruby --version
+ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-darwin19]
 ```
 
 </details>
