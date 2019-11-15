@@ -65,6 +65,7 @@
 - [x] [GPG Suite](https://gpgtools.org/)
 - [ ] [~~GitHub Desktop~~](https://desktop.github.com/) because it does not support commit signing.
 - [x] [Spotify](https://www.spotify.com/us/download/mac)
+- [x] [Pritunl](https://client.pritunl.com/#install) for VPN setup
 
 ## Development Environment
 
