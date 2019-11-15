@@ -39,3 +39,26 @@ Adding /Users/zain/Code/GitLab/gdk to trusted_directories in /Users/zain/.gdk.ym
 ```
 
 </details>
+
+<details><summary><a href="https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/set-up-gdk.md#install-gdk-components">Install GDK components</a></summary>
+
+```bash
+$ cd gdk
+# blank
+
+$ gdk install gitlab_repo=git@gitlab.com:zainfathoni/gitlab.git
+(in /Users/zain/Code/GitLab/gdk)
+command -v rake > /dev/null || gem install rake
+rake preflight-checks
+rake aborted!
+Errno::ENOENT: No such file or directory - psql
+/Users/zain/Code/GitLab/gdk/lib/gdk/dependencies.rb:138:in ``'
+/Users/zain/Code/GitLab/gdk/lib/gdk/dependencies.rb:138:in `check_postgresql_version'
+/Users/zain/Code/GitLab/gdk/lib/gdk/dependencies.rb:60:in `check_all'
+/Users/zain/Code/GitLab/gdk/Rakefile:127:in `block in <top (required)>'
+Tasks: TOP => preflight-checks
+(See full trace by running task with --trace)
+make: *** [preflight-checks] Error 1
+```
+
+</details>
