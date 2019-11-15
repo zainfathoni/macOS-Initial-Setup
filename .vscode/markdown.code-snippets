@@ -29,7 +29,7 @@
   },
   "Details summary with bash script": {
     "scope": "markdown",
-    "prefix": "dtsab",
+    "prefix": "dtsb",
     "body": ["<details><summary>$1</summary>", "", "```bash", "$ $2", "```", "", "</details>"],
     "description": "Expandable details summary with bash script code black"
   },
