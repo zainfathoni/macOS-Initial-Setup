@@ -63,7 +63,7 @@ rvm 1.29.9 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://r
 
 Based on [GitLab Development Kit preparation](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/prepare.md).
 
-<details><summary>Install <a href="">Ruby</a></summary>
+<details><summary>Install <a href="https://www.ruby-lang.org/en/">Ruby</a></summary>
 
 ```bash
 # Install the current gitlab Ruby version https://gitlab.com/gitlab-org/gitlab/blob/master/.ruby-version
@@ -112,4 +112,18 @@ $ ruby --version
 ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-darwin19]
 ```
 
+</details>
+
+## Bundler
+
+Install the version of [Bundler](https://bundler.io/) specified in [Gemfile.lock](https://gitlab.com/gitlab-org/gitlab/blob/master/Gemfile.lock), right below the text `BUNDLED WITH`.
+
+<details><summary>Install <a href="https://bundler.io/">Bundler</a></summary>
+$ gem install bundler -v 1.17.3
+Fetching bundler-1.17.3.gem
+Successfully installed bundler-1.17.3
+Parsing documentation for bundler-1.17.3
+Installing ri documentation for bundler-1.17.3
+Done installing documentation for bundler after 3 seconds
+1 gem installed
 </details>
