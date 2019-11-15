@@ -42,7 +42,7 @@ Adding /Users/zain/Code/GitLab/gdk to trusted_directories in /Users/zain/.gdk.ym
 
 <details><summary><a href="https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/set-up-gdk.md#install-gdk-components">Install GDK components</a></summary>
 
-````bash
+```bash
 $ cd gdk
 # blank
 
@@ -572,4 +572,31 @@ Turn off this advice by setting config variable advice.detachedHead to false
 ```
 
 </details>
-````
+
+<details><summary>Copy YAML configuration from the example then run GitLab locally</summary>
+
+```bash
+$ cp gdk.example.yml gdk.yml
+# blank
+
+$ gdk start
+ok: run: ./services/gitlab-pages: (pid 61672) 0s, normally down
+ok: run: ./services/gitlab-workhorse: (pid 61679) 0s, normally down
+ok: run: ./services/jaeger: (pid 61676) 0s, normally down
+ok: run: ./services/minio: (pid 61677) 0s, normally down
+ok: run: ./services/postgresql: (pid 61674) 0s, normally down
+ok: run: ./services/praefect: (pid 61673) 0s, normally down
+ok: run: ./services/praefect-gitaly-0: (pid 61675) 0s, normally down
+ok: run: ./services/rails-background-jobs: (pid 61680) 0s, normally down
+ok: run: ./services/rails-web: (pid 61678) 0s, normally down
+ok: run: ./services/redis: (pid 61681) 0s, normally down
+ok: run: ./services/registry: (pid 61683) 0s, normally down
+ok: run: ./services/webpack: (pid 61682) 0s, normally down
+```
+
+Open [http://localhost:3000](http://localhost:3000/) and you should see GitLab sign in page.
+The development login credentials are `root` and `5iveL!fe`.
+
+![GitLab Sign In page](images/gitlab-sign-in-page.png)
+
+</details>
