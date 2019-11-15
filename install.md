@@ -80,3 +80,7 @@ Please refer to [node-js.md](#file-node-js-md) file
 ### Ruby
 
 Please refer to [ruby.md](#file-ruby-md) file
+
+### Go
+
+Please refer to [go.md](#file-go-md) file
