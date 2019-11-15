@@ -30,7 +30,7 @@
   "Details summary with anchor and bash script": {
     "scope": "markdown",
     "prefix": "dtsab",
-    "body": ["<details><summary><a href=\"$1\">$2</a></summary>", "", "```bash", "$3", "```", "", "</details>"],
+    "body": ["<details><summary><a href=\"$1\">$2</a></summary>", "", "```bash", "$ $3", "```", "", "</details>"],
     "description": "Expandable details summary with anchor and bash script code black"
   }
 }
