@@ -88,3 +88,7 @@ Please refer to [go.md](#file-go-md) file
 ### Chrome
 
 Please refer to [chrome.md](#file-chrome-md) file
+
+### [GitLab Development Kit preparation](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/prepare.md#install-os-x-prerequisites-using-homebrew)
+
+Please refer to [gdk-prepare.md](#gdk-prepare-md) file
