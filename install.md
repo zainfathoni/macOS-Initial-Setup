@@ -1,4 +1,4 @@
-# Installation
+# Basic Installation
 
 ## OS Preferences
 
@@ -66,29 +66,3 @@
 - [ ] [~~GitHub Desktop~~](https://desktop.github.com/) because [it does not support commit signing](https://help.github.com/en/github/authenticating-to-github/signing-commits).
 - [x] [Spotify](https://www.spotify.com/us/download/mac)
 - [x] [Pritunl](https://client.pritunl.com/#install) for VPN setup
-
-## Development Environment
-
-### Terminal
-
-Please refer to [terminal.md](terminal.md) file
-
-### NodeJS
-
-Please refer to [node-js.md](node-js.md) file
-
-### Ruby
-
-Please refer to [ruby.md](ruby.md) file
-
-### Go
-
-Please refer to [go.md](go.md) file
-
-### Chrome
-
-Please refer to [chrome.md](chrome.md) file
-
-### [GitLab Development Kit preparation](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/prepare.md#install-os-x-prerequisites-using-homebrew)
-
-Please refer to [gdk-prepare.md](gdk-prepare.md) file

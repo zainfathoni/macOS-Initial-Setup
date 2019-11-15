@@ -4,13 +4,19 @@ My personal macOS setup guide for a new fresh installation
 
 ## Table of Contents
 
-1. [Installation](install.md)
+### Generic Setup
+
+1. [Basic Installation](install.md)
 2. [Terminal Setup](terminal.md)
 3. [NodeJS Setup](node-js.md)
 4. [Ruby Setup](ruby.md)
 5. [Go Setup](go.md)
-6. [Google Chrome Setup](chrome.md)
-7. [GitLab Development Kit Preparation](gdk-prepare.md)
+
+### Specific Setup
+
+1. [Google Chrome Setup](chrome.md)
+2. [GitLab Development Kit Preparation](gdk-prepare.md)
+3. [GitLab Development Kit Setup](gdk-setup.md)
 
 ## Notes
 
