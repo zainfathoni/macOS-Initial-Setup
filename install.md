@@ -84,3 +84,7 @@ Please refer to [ruby.md](#file-ruby-md) file
 ### Go
 
 Please refer to [go.md](#file-go-md) file
+
+### Chrome
+
+Please refer to [chrome.md](#file-chrome-md) file
