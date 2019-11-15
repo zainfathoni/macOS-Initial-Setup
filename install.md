@@ -71,12 +71,12 @@
 
 ### Terminal
 
-Please refer to [terminal.md](#terminal-setup) file
+Please refer to [terminal.md](#file-terminal-md) file
 
 ### NodeJS
 
-Please refer to [node-js.md](#nodejs-setup) file
+Please refer to [node-js.md](#file-node-js-md) file
 
 ### Ruby
 
-Please refer to [ruby.md](#ruby-setup) file
+Please refer to [ruby.md](#file-ruby-md) file
