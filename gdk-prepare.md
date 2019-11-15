@@ -1,4 +1,4 @@
-# GitLab Development Kit preparation
+# GitLab Development Kit Preparation
 
 Based on [Install OS X prerequisites using Homebrew](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/prepare.md#install-os-x-prerequisites-using-homebrew) section.
 

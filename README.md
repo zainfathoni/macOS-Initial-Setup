@@ -2,6 +2,16 @@
 
 My personal macOS setup guide for a new fresh installation
 
+## Table of Contents
+
+1. [Installation](install.md)
+2. [Terminal Setup](terminal.md)
+3. [NodeJS Setup](node-js.md)
+4. [Ruby Setup](ruby.md)
+5. [Go Setup](go.md)
+6. [Google Chrome Setup](chrome.md)
+7. [GitLab Development Kit Preparation](gdk-prepare.md)
+
 ## Notes
 
 This repository was ported from [Gist](https://gist.github.com/zainfathoni/51a508565f837e923671eb419deb2199) to [GitHub repository](https://github.com/zainfathoni/macOS-Initial-Setup) due to these reasons:

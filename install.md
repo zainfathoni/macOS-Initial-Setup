@@ -71,24 +71,24 @@
 
 ### Terminal
 
-Please refer to [terminal.md](#file-terminal-md) file
+Please refer to [terminal.md](terminal.md) file
 
 ### NodeJS
 
-Please refer to [node-js.md](#file-node-js-md) file
+Please refer to [node-js.md](node-js.md) file
 
 ### Ruby
 
-Please refer to [ruby.md](#file-ruby-md) file
+Please refer to [ruby.md](ruby.md) file
 
 ### Go
 
-Please refer to [go.md](#file-go-md) file
+Please refer to [go.md](go.md) file
 
 ### Chrome
 
-Please refer to [chrome.md](#file-chrome-md) file
+Please refer to [chrome.md](chrome.md) file
 
 ### [GitLab Development Kit preparation](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/doc/prepare.md#install-os-x-prerequisites-using-homebrew)
 
-Please refer to [gdk-prepare.md](#gdk-prepare-md) file
+Please refer to [gdk-prepare.md](gdk-prepare.md) file
