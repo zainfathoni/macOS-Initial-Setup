@@ -14,8 +14,8 @@ Done installing documentation for gitlab-development-kit after 0 seconds
 1 gem installed
 
 # Verify installation
-$ gem list | grep gitlab-development-kit
-gitlab-development-kit (0.2.5)
+$ gdk version
+GitLab Development Kit gem version 0.2.5
 ```
 
 </details>
