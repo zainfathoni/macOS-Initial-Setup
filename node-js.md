@@ -37,6 +37,18 @@ You're already up to date
 
 </details>
 
+<details><summary>Install <a href="https://github.com/dijitalmunky/nvm-auto#installation">nvm-auto oh-my-zsh custom plugin</a> to automatically switch node version based on <code>.nvmrc</code> file</summary>
+
+```bash
+$ git clone https://github.com/dijitalmunky/nvm-auto.git ~/.oh-my-zsh/custom/plugins/nvm-auto
+loning into '/Users/zain/.oh-my-zsh/custom/plugins/nvm-auto'...
+remote: Enumerating objects: 23, done.
+remote: Total 23 (delta 0), reused 0 (delta 0), pack-reused 23
+Unpacking objects: 100% (23/23), done.
+```
+
+</details>
+
 ## NodeJS
 
 <details><summary>Install <a href="https://github.com/nvm-sh/nvm#long-term-support">latest LTS version of NodeJS</a></summary>
