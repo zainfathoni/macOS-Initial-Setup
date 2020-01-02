@@ -3747,18 +3747,17 @@ $ cp gdk.example.yml gdk.yml
 # blank
 
 $ gdk start
-ok: run: ./services/gitlab-pages: (pid 61672) 0s, normally down
-ok: run: ./services/gitlab-workhorse: (pid 61679) 0s, normally down
-ok: run: ./services/jaeger: (pid 61676) 0s, normally down
-ok: run: ./services/minio: (pid 61677) 0s, normally down
-ok: run: ./services/postgresql: (pid 61674) 0s, normally down
-ok: run: ./services/praefect: (pid 61673) 0s, normally down
-ok: run: ./services/praefect-gitaly-0: (pid 61675) 0s, normally down
-ok: run: ./services/rails-background-jobs: (pid 61680) 0s, normally down
-ok: run: ./services/rails-web: (pid 61678) 0s, normally down
-ok: run: ./services/redis: (pid 61681) 0s, normally down
-ok: run: ./services/registry: (pid 61683) 0s, normally down
-ok: run: ./services/webpack: (pid 61682) 0s, normally down
+(in /Users/zain/Code/GitLab/gitlab-development-kit)
+run: ./services/gitlab-pages: (pid 40346) 13s, normally down; run: log: (pid 40199) 25s
+run: ./services/gitlab-workhorse: (pid 40351) 13s, normally down; run: log: (pid 40196) 25s
+run: ./services/jaeger: (pid 40347) 13s, normally down; run: log: (pid 40197) 25s
+run: ./services/postgresql: (pid 40349) 13s, normally down; run: log: (pid 40193) 25s
+run: ./services/praefect: (pid 40348) 13s, normally down; run: log: (pid 40202) 25s
+run: ./services/praefect-gitaly-0: (pid 40350) 13s, normally down; run: log: (pid 40195) 25s
+run: ./services/rails-background-jobs: (pid 40353) 13s, normally down; run: log: (pid 40201) 25s
+run: ./services/rails-web: (pid 40355) 13s, normally down; run: log: (pid 40194) 25s
+run: ./services/redis: (pid 40352) 13s, normally down; run: log: (pid 40198) 25s
+run: ./services/webpack: (pid 40354) 13s, normally down; run: log: (pid 40200) 25s
 ```
 
 Open [http://localhost:3000](http://localhost:3000/) and you should see GitLab sign in page.
