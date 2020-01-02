@@ -9,8 +9,8 @@ Based on [Install OS X prerequisites using Homebrew](https://gitlab.com/gitlab-o
 $ brew list
 autoconf automake coreutils gettext git libgpg-error libksba libtool libyaml openssl@1.1 pcre2 pkg-config readline zlib
 
-# Strip out git pkg-config openssl coreutils node@12 yarn google-chrome chromedriver
-$ brew install redis postgresql@10 libiconv cmake re2 graphicsmagick runit icu4c exiftool
+# Strip node@12 yarn google-chrome chromedriver
+$ brew install git git-lfs redis postgresql@10 libiconv pkg-config cmake go openssl coreutils re2 graphicsmagick gpg runit icu4c exiftool minio
 ==> Downloading https://homebrew.bintray.com/bottles/redis-5.0.6.catalina.bottle.tar.gz
 ==> Downloading from https://akamai.bintray.com/8a/8ae4fed5494daa20391ab16d4be0ba4eca3d55235c02aa576604bee568559608?__gda__=exp=1573853247~hmac=72a7e3c02643c2dff205e23e4b9178e1147aacd059685d8dcdcf57730456ee2b&response-content-disposition=at
 ######################################################################## 100.0%
