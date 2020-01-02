@@ -329,6 +329,42 @@ Emacs Lisp files have been installed to:
 
 </details>
 
+### Git LFS
+
+Install [Git Lange File Storage](https://git-lfs.github.com/) to handle versioning large files.
+
+<details><summary>brew install git-lfs</summary>
+
+```bash
+$ brew install git-lfs
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+...
+==> Downloading https://homebrew.bintray.com/bottles/git-lfs-2.8.0.mojave.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/1d/1dfa249482bce6cdbfc46d6d34e88afd4fc7947dd98d4072b5c6c8909a31b03c?__gda__=exp=1577977603~hmac=f1fd089f85f90740f781a7a514ed969419a1d5c8fe6ba51ef441c06ec84833c6&response-content-disposition=attachment%
+######################################################################## 100.0%
+==> Pouring git-lfs-2.8.0.mojave.bottle.tar.gz
+==> Caveats
+Update your git config to finish installation:
+
+  # Update global git config
+  git lfs install
+
+  # Update system git config
+  git lfs install --system
+==> Summary
+🍺  /usr/local/Cellar/git-lfs/2.8.0: 63 files, 11MB
+
+# Update global git config
+# Perhaps no need to do this perhaps because the config is already stored in the dotfiles.
+$ git lfs install
+Updated git hooks.
+Git LFS initialized.
+```
+
+</details>
+
 ### Dotfiles
 
 Clone your personal [dotfiles](https://github.com/zainfathoni/dotfiles) repository over **HTTPS** using [personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
