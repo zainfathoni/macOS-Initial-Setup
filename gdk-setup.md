@@ -3766,3 +3766,799 @@ The development login credentials are `root` and `5iveL!fe`.
 ![GitLab Sign In page](images/gitlab-sign-in-page.png)
 
 </details>
+
+<details><summary>Generate frontend fixtures for running the unit tests</summary>
+
+```bash
+$ bundle install
+Fetching gem metadata from https://rubygems.org/........
+Using rake 12.3.3
+Using RedCloth 4.3.2
+Using multipart-post 2.0.0
+Using ace-rails-ap 4.1.2
+Using abstract_type 0.0.7
+Using thread_safe 0.3.6
+Using concurrent-ruby 1.1.5
+Using erubi 1.9.0
+Using mini_portile2 2.4.0
+Using crass 1.0.5
+Using rack 2.0.7
+Using nio4r 2.5.2
+Using websocket-extensions 0.1.3
+Using mini_mime 1.0.2
+Using arel 9.0.0
+Using pg 1.1.4
+Using mimemagic 0.3.2
+Using ice_nine 0.11.2
+Using public_suffix 3.1.1
+Using aes_key_wrap 1.0.1
+Using akismet 3.0.0
+Using graphql 1.9.11
+Using bundler 1.17.3
+Fetching builder 3.2.4
+Using minitest 5.11.3
+Using thor 0.20.3
+Using method_source 0.9.2
+Using jwt 2.1.0
+Using multi_xml 0.6.0
+Using asciidoctor 2.0.10
+Using multi_json 1.13.1
+Using encryptor 3.0.0
+Using ast 2.4.0
+Using awesome_print 1.8.0
+Using aws-eventstream 1.0.3
+Using jmespath 1.4.0
+Using babosa 1.0.2
+Using base32 0.3.2
+Using batch-loader 1.4.0
+Using bcrypt 3.1.12
+Using bcrypt_pbkdf 1.0.0
+Using benchmark-ips 2.3.0
+Using memory_profiler 0.9.13
+Using coderay 1.1.2
+Using bindata 2.4.3
+Using binding_ninja 0.2.3
+Using debug_inspector 0.0.3
+Using msgpack 1.3.1
+Using brakeman 4.2.1
+Using browser 2.5.3
+Using uniform_notifier 1.13.0
+Using byebug 9.1.0
+Using regexp_parser 1.5.1
+Using mime-types-data 3.2019.0331
+Using cause 0.1
+Using character_set 1.1.2
+Using charlock_holmes 0.7.6
+Using childprocess 3.0.0
+Using chunky_png 1.3.5
+Using citrus 3.0.2
+Using claide 1.0.3
+Using colored2 3.1.2
+Using nap 1.1.0
+Using open4 1.3.4
+Using equalizer 0.0.11
+Using connection_pool 2.2.2
+Using contracts 0.11.0
+Using i18n_data 0.8.0
+Using sixarm_ruby_unaccent 1.2.0
+Using unicode_utils 1.4.0
+Using safe_yaml 1.0.4
+Using creole 0.5.0
+Using daemons 1.2.6
+Using git 1.5.0
+Using kramdown 2.1.0
+Using no_proxy_fix 0.1.2
+Using unicode-display_width 1.6.0
+Using attr_required 1.0.1
+Using database_cleaner 1.7.0
+Using debugger-ruby_core_source 1.3.8
+Using declarative 0.0.10
+Using declarative-option 0.1.0
+Using get_process_mem 0.2.3
+Using heapy 0.1.4
+Using device_detector 1.0.0
+Using orm_adapter 0.5.0
+Using rotp 2.1.2
+Using diff-lcs 1.3
+Using diff_match_patch 0.1.0
+Using diffy 3.1.0
+Using unf_ext 0.0.7.5
+Using netrc 0.11.0
+Using docile 1.3.1
+Using ed25519 1.2.4
+Using hashie 3.5.7
+Using elasticsearch-rails 0.1.9
+Using htmlentities 4.3.4
+Using email_reply_trimmer 0.1.6
+Using eventmachine 1.2.7
+Using excon 0.62.0
+Using escape_utils 1.2.1
+Using expression_parser 0.9.0
+Using fast_blank 1.0.0
+Using fast_gettext 1.6.0
+Using ffaker 2.10.0
+Using ffi 1.11.3
+Using flipper 0.17.1
+Using formatador 0.2.5
+Using ipaddress 0.8.3
+Using xml-simple 1.1.5
+Using memoist 0.16.0
+Using os 1.0.0
+Using httpclient 2.8.3
+Using uber 0.1.0
+Using retriable 3.1.2
+Using raabro 1.1.6
+Using rspec-support 3.8.2
+Using ruby-progressbar 1.10.1
+Using gemoji 3.0.1
+Using json 1.8.6
+Using execjs 2.6.0
+Using text 1.3.1
+Using locale 2.1.2
+Using google-protobuf 3.8.0 (universal-darwin)
+Using github-markup 1.7.0
+Using opentracing 0.5.0
+Using numerizer 0.2.0
+Using redis 4.1.3
+Using thrift 0.11.0.0
+Using gitlab-markup 1.7.0
+Using gitlab-net-dns 0.9.1
+Using jaro_winkler 1.5.4
+Using parallel 1.19.1
+Using rainbow 3.0.0
+Using net-ldap 0.16.0
+Using pyu-ruby-sasl 0.0.3.3
+Using rubyntlm 0.6.2
+Using request_store 1.3.1
+Using mustermann 1.0.3
+Using rb-fsevent 0.10.2
+Using ruby_dep 1.5.0
+Using lumberjack 1.0.13
+Using nenv 0.3.0
+Using shellany 0.0.1
+Using guard-compat 1.2.1
+Using temple 0.8.2
+Using tilt 2.0.10
+Using sysexits 1.2.0
+Using hangouts-chat 0.0.5
+Using hashdiff 0.3.8
+Using http-form_data 2.1.1
+Using http_parser.rb 0.6.0
+Using icalendar 2.4.1
+Using oauth 0.5.4
+Using regexp_property_values 0.3.4
+Using kaminari-core 1.0.1
+Using kgio 2.11.2
+Using knapsack 1.17.0
+Using recursive-open-struct 1.1.0
+Using rubyzip 1.3.0
+Using parslet 1.8.2
+Using with_env 1.1.0
+Using rugged 0.28.4.1
+Using liquid 4.0.3
+Using mail_room 0.10.0
+Using mini_magick 4.9.5
+Using murmurhash3 0.1.6
+Using nakayoshi_fork 0.0.4
+Using net-ntp 2.1.3
+Using net-ssh 5.2.0
+Using timfel-krb5-auth 0.8.3
+Using optimist 3.0.0
+Using rubypants 0.2.0
+Using procto 0.0.3
+Using prometheus-client-mmap 0.9.10
+Using rack-cors 1.0.2
+Using rack-timeout 0.5.1
+Using raindrops 0.19.0
+Using rdoc 6.0.4
+Using re2 1.1.1
+Using rinku 2.0.0
+Using rouge 3.11.0
+Using rspec-set 0.1.3
+Using sqlite3 1.3.13
+Using ruby-prof 1.0.0
+Using sexp_processor 4.12.0
+Using settingslogic 2.0.9
+Using simple_po_parser 1.1.2
+Using gitlab-license 1.0.0
+Using slack-notifier 1.5.1
+Using simplecov-html 0.10.2
+Using sshkey 2.0.0
+Using state_machines 0.5.0
+Using test-prof 0.10.0
+Using timecop 0.8.1
+Using u2f 0.2.1
+Using version_sorter 2.2.4
+Using vmstat 2.3.0
+Using stackprof 0.2.13
+Using i18n 1.7.0
+Using tzinfo 1.2.5
+Using nokogiri 1.10.7
+Using rack-test 1.1.0
+Using websocket-driver 0.7.0
+Using mail 2.7.1
+Using marcel 0.3.3
+Using memoizable 0.4.2
+Using addressable 2.5.2
+Using sprockets 3.7.2
+Using descendants_tracker 0.0.4
+Using warden 1.2.8
+Using gitlab-puma 4.3.1.gitlab.2
+Using rack-protection 2.0.5
+Using gpgme 2.0.19
+Using rack-accept 0.4.5
+Using rack-attack 6.2.0
+Using rack-proxy 0.6.0
+Using bundler-audit 0.5.0
+Using atlassian-jwt 0.2.0
+Using asciidoctor-include-ext 0.3.1
+Using asciidoctor-plantuml 0.0.10
+Using attr_encrypted 3.1.0
+Using aws-sigv4 1.1.0
+Using benchmark-memory 0.1.2
+Using better_errors 2.5.0
+Using binding_of_caller 0.8.0
+Using bootsnap 1.4.5
+Using mime-types 3.2.2
+Using cork 0.3.0
+Using countries 3.0.0
+Using crack 0.4.3
+Using kramdown-parser-gfm 1.1.0
+Using elasticsearch-api 5.0.3
+Using parser 2.6.5.0
+Using pry 0.11.3
+Using rqrcode 0.7.0
+Using snowplow-tracker 0.6.1
+Using toml-rb 1.0.0
+Using terminal-table 1.8.0
+Using rblineprof 0.3.6
+Using faraday 0.12.2
+Using unf 0.1.4
+Using omniauth 1.9.0
+Using hashie-forbidden_attributes 0.1.1
+Using derailed_benchmarks 1.3.5
+Using representable 3.0.4
+Using rspec-core 3.8.2
+Using gettext_i18n_rails 1.8.0
+Using rb-inotify 0.9.10
+Using gssapi 1.2.0
+Using rspec-expectations 3.8.4
+Using rspec-mocks 3.8.1
+Using sassc 2.0.1
+Using sys-filesystem 1.1.6
+Using recaptcha 4.13.1
+Using uglifier 2.7.2
+Using gemojione 3.3.0
+Using po_to_json 1.0.1
+Using influxdb 0.2.3
+Using gettext 3.2.9
+Using googleapis-common-protos-types 1.0.4
+Using gitlab-chronic 0.10.5
+Using gitlab_chronic_duration 0.10.6.2
+Using redis-store 1.8.1
+Using redis-namespace 1.6.0
+Using jaeger-client 0.10.0
+Using mustermann-grape 1.0.0
+Using notiffany 0.1.3
+Using haml 5.1.2
+Using hamlit 2.11.0
+Using js_regex 3.1.1
+Using toml 0.2.0
+Using licensee 8.9.2
+Using org-ruby 0.9.12
+Using rbtrace 0.4.11
+Using ruby_parser 3.13.1
+Using selenium-webdriver 3.142.6
+Using unicorn 5.4.1
+Using unleash 0.1.5
+Using simplecov 0.16.1
+Using ruby-saml 1.7.2
+Using truncato 0.7.11
+Using activesupport 5.2.3
+Using thin 1.7.2
+Using adamantium 0.2.0
+Fetching loofah 2.4.0
+Using axiom-types 0.1.1
+Using xpath 3.2.0
+Using launchy 2.4.3
+Using coercible 1.0.0
+Using ruby-enum 0.7.2
+Using css_parser 1.7.0
+Using et-orbi 1.2.1
+Using gitlab-puma_worker_killer 0.1.1.gitlab.1
+Using sidekiq 5.2.7
+Using html2text 0.2.0
+Using json-schema 2.8.0
+Using nokogumbo 1.5.0
+Using pry-byebug 3.5.1
+Using pry-rails 0.3.6
+Using rqrcode-rails3 0.1.7
+Using ruby-fogbugz 0.2.1
+Using webmock 3.5.1
+Using aws-sdk-core 2.11.374
+Using claide-plugins 0.9.2
+Using httparty 0.16.4
+Using rubocop 0.74.0
+Using sentry-raven 2.9.0
+Using acme-client 2.0.2
+Using faraday_middleware 0.12.2
+Using oauth2 1.4.1
+Using faraday-http-cache 2.0.0
+Using sawyer 0.8.1
+Using domain_name 0.5.20180417
+Using elasticsearch-transport 5.0.3
+Using signet 0.11.0
+Using gitlab_omniauth-ldap 2.1.1
+Using omniauth-cas3 1.1.4
+Using omniauth-multipassword 0.4.2
+Using omniauth-oauth 1.1.0
+Using omniauth-shibboleth 1.3.0
+Using fuubar 2.2.0
+Using grpc 1.24.0 (universal-darwin)
+Using grape-entity 0.7.1
+Using sass-listen 4.0.0
+Using listen 3.1.5
+Using rspec 3.8.0
+Using jira-ruby 1.7.1
+Using license_finder 5.4.0
+Using omniauth-saml 1.10.0
+Using swd 1.1.2
+Using webfinger 1.1.0
+Using omniauth_crowd 2.2.3
+Using redis-rack 2.0.6
+Using redis-activesupport 5.2.0
+Using rspec-retry 0.6.1
+Using rspec_junit_formatter 0.4.1
+Using shoulda-matchers 4.0.1
+Using spring 2.0.2
+Using unicorn-worker-killer 0.4.4
+Using rails-dom-testing 2.0.3
+Using globalid 0.4.2
+Using activemodel 5.2.3
+Using bullet 6.0.2
+Using html-pipeline 2.12.2
+Using json-jwt 1.9.4
+Using factory_bot 5.1.0
+Using flipper-active_support_cache_store 0.17.1
+Using concord 0.1.5
+Using capybara 3.22.0
+Using commonmarker 0.20.1
+Using email_spec 2.2.0
+Using flowdock 0.7.1
+Using fugit 1.2.1
+Using gitlab-sidekiq-fetcher 0.5.2
+Using rubocop-gitlab-security 0.1.1
+Using rubocop-performance 1.4.1
+Using rubocop-rails 2.4.0
+Using rubocop-rspec 1.37.0
+Using virtus 1.0.5
+Using haml_lint 0.34.0
+Using hipchat 1.5.2
+Using letter_opener 1.7.0
+Using omniauth-oauth2 1.6.0
+Using premailer 1.11.1
+Using sanitize 4.6.6
+Using faraday_middleware-multi_json 0.0.6
+Using aws-sdk-resources 2.11.374
+Using octokit 4.9.0
+Using http-cookie 1.0.3
+Using elasticsearch 5.0.3
+Using googleauth 0.6.6
+Using gitaly 1.73.0
+Using sass 3.5.5
+Using guard 2.15.1
+Using omniauth-kerberos 0.3.0
+Using omniauth-twitter 1.4.0
+Using spring-commands-rspec 1.0.4
+Using activejob 5.2.3
+Using rack-oauth2 1.9.3
+Using validate_email 0.1.6
+Using validate_url 1.0.8
+Using unparser 0.4.5
+Using state_machines-activemodel 0.7.1
+Using activerecord 5.2.3
+Using capybara-screenshot 1.0.22
+Using carrierwave 1.3.1
+Using deckar01-task_list 2.3.1
+Using extended-markdown-filter 0.6.0
+Using sidekiq-cron 1.0.4
+Installing builder 3.2.4
+Using activerecord-explain-analyze 0.1.0
+Using acts-as-taggable-on 6.5.0
+Using asana 0.9.3
+Using aws-sdk 2.11.374
+Using danger 6.0.9
+Using default_value_for 3.3.0
+Using rest-client 2.0.2
+Using elasticsearch-model 0.1.9
+Using faraday_middleware-aws-signers-v4 0.1.7
+Using flipper-active_record 0.17.1
+Using google-api-client 0.23.4
+Using gitlab-styles 3.1.0
+Using graphql-docs 1.6.0
+Using guard-rspec 4.7.3
+Using http 3.3.0
+Using kaminari-activerecord 1.0.1
+Using omniauth-auth0 2.0.0
+Using omniauth-authentiq 0.3.3
+Using omniauth-azure-oauth2 0.0.10
+Using omniauth-facebook 4.0.0
+Using omniauth-github 1.3.0
+Using omniauth-gitlab 1.0.3
+Using omniauth-google-oauth2 0.6.0
+Using omniauth-oauth2-generic 0.2.2
+Using omniauth-salesforce 1.0.5
+Using openid_connect 1.1.8
+Using proc_to_ast 0.1.0
+Using scss_lint 0.56.0
+Using seed-fu 2.3.7
+Using state_machines-activerecord 0.6.0
+Using validates_hostname 1.0.6
+Using discordrb-webhooks-blackst0ne 3.3.0
+Using kubeclient 4.4.0
+Using omniauth_openid_connect 0.3.3
+Using rspec-parameterized 0.4.2
+Using omniauth-ultraauth 0.0.2
+Installing loofah 2.4.0
+Using fog-core 2.1.0
+Using wikicloth 0.8.1
+Using fog-json 1.2.0
+Using fog-xml 0.1.3
+Using fog-local 0.6.0
+Using fog-aliyun 0.3.3
+Using fog-openstack 1.0.8
+Using fog-aws 3.5.2
+Using fog-google 1.9.1
+Using fog-rackspace 0.1.1
+Using grape 1.1.0
+Using grape-path-helpers 1.1.0
+Using grape_logging 1.7.0
+Using rails-html-sanitizer 1.3.0
+Using actionview 5.2.3
+Using actionpack 5.2.3
+Using kaminari-actionview 1.0.1
+Using actioncable 5.2.3
+Using railties 5.2.3
+Using sprockets-rails 3.2.1
+Using actionmailer 5.2.3
+Using activestorage 5.2.3
+Using gon 6.2.0
+Using bootstrap_form 4.2.0
+Using kaminari 1.0.1
+Using rails-controller-testing 1.0.4
+Using redis-actionpack 5.1.0
+Fetching gitlab-labkit 0.8.0
+Using marginalia 1.8.0
+Using doorkeeper 4.3.2
+Using responders 3.0.0
+Using font-awesome-rails 4.7.0.5
+Using factory_bot_rails 5.1.0
+Using lograge 0.10.0
+Using letter_opener_web 1.3.4
+Using premailer-rails 1.10.3
+Using rails-i18n 5.1.1
+Using rspec-rails 4.0.0.beta3
+Using webpack-rails 0.9.11
+Using rails 5.2.3
+Using peek 1.1.0
+Using graphiql-rails 1.4.10
+Using sassc-rails 2.1.0
+Using redis-rails 5.0.2
+Using doorkeeper-openid_connect 1.5.0
+Using devise 4.7.1
+Using devise-two-factor 3.0.0
+Using apollo_upload_server 2.0.0.beta.3
+Using health_check 2.6.0
+Using gettext_i18n_rails_js 1.3.0
+Using rspec_profiling 0.0.5
+Using invisible_captcha 0.12.1
+Installing gitlab-labkit 0.8.0
+Bundle complete! 250 Gemfile dependencies, 478 gems now installed.
+Gems in the group production were not installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+
+$ gdk start
+(in /Users/zain/Code/GitLab/gitlab-development-kit)
+ok: run: ./services/gitlab-pages: (pid 46182) 0s, normally down
+ok: run: ./services/gitlab-workhorse: (pid 46181) 0s, normally down
+ok: run: ./services/jaeger: (pid 46186) 0s, normally down
+ok: run: ./services/postgresql: (pid 46183) 0s, normally down
+ok: run: ./services/praefect: (pid 46184) 0s, normally down
+ok: run: ./services/praefect-gitaly-0: (pid 46185) 0s, normally down
+ok: run: ./services/rails-background-jobs: (pid 46188) 0s, normally down
+ok: run: ./services/rails-web: (pid 46187) 0s, normally down
+ok: run: ./services/redis: (pid 46189) 0s, normally down
+ok: run: ./services/webpack: (pid 46190) 0s, normally down
+
+$ gdk stop rails
+(in /Users/zain/Code/GitLab/gitlab-development-kit)
+ok: down: ./services/rails-background-jobs: 0s
+ok: down: ./services/rails-web: 0s
+
+$ gdk status
+(in /Users/zain/Code/GitLab/gitlab-development-kit)
+run: ./services/gitlab-pages: (pid 46182) 11s, normally down; run: log: (pid 46177) 12s
+run: ./services/gitlab-workhorse: (pid 46181) 11s, normally down; run: log: (pid 46175) 12s
+run: ./services/jaeger: (pid 46186) 11s, normally down; run: log: (pid 46174) 12s
+run: ./services/postgresql: (pid 46183) 11s, normally down; run: log: (pid 46176) 12s
+run: ./services/praefect: (pid 46184) 11s, normally down; run: log: (pid 46172) 12s
+run: ./services/praefect-gitaly-0: (pid 46185) 11s, normally down; run: log: (pid 46179) 12s
+down: ./services/rails-background-jobs: 5s; run: log: (pid 46170) 12s
+down: ./services/rails-web: 5s; run: log: (pid 46171) 12s
+run: ./services/redis: (pid 46189) 11s, normally down; run: log: (pid 46173) 12s
+run: ./services/webpack: (pid 46190) 11s, normally down; run: log: (pid 46178) 12s
+
+$ bin/rake frontend:fixtures
+/Users/zain/.rvm/rubies/ruby-2.6.3/bin/ruby -I/Users/zain/.rvm/gems/ruby-2.6.3/gems/rspec-core-3.8.2/lib:/Users/zain/.rvm/gems/ruby-2.6.3/gems/rspec-support-3.8.2/lib /Users/zain/.rvm/gems/ruby-2.6.3/gems/rspec-core-3.8.2/exe/rspec --pattern \{spec,ee/spec\}/frontend/fixtures/\*.rb --format documentation
+warning: parser/current is loading parser/ruby26, which recognizes
+warning: 2.6.5-compliant syntax, but you are running 2.6.3.
+warning: please see https://github.com/whitequark/parser#compatibility-with-ruby-mri.
+Run options: include {:focus=>true}
+
+All examples were filtered out; ignoring {:focus=>true}
+
+==> Setting up Gitaly...
+Checking gitaly-ruby Gemfile...
+Checking gitaly-ruby bundle...
+The Gemfile\'s dependencies are satisfied
+Trying to connect to gitaly: ................ OK
+    Gitaly set up in 48.521242 seconds...
+
+==> Setting up GitLab Elasticsearch Indexer...
+    GitLab Elasticsearch Indexer set up in 38.492915 seconds...
+
+Analytics (JavaScript fixtures)
+  Groups::CycleAnalytics::EventsController
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>3}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>4}
+    cycle_analytics/events/issue.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>7}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>8}
+    cycle_analytics/events/plan.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>11}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>12}
+    cycle_analytics/events/review.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>15}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>16}
+    cycle_analytics/events/code.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>19}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>20}
+    cycle_analytics/events/test.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>23}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>24}
+    cycle_analytics/events/staging.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>27}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>28}
+    cycle_analytics/events/production.json
+  Groups::CycleAnalyticsController
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>31}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>32}
+    cycle_analytics/mock_data.json
+  Analytics::CycleAnalytics::StagesController
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>35}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>36}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>42}
+    analytics/cycle_analytics/stages.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>45}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>46}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>52}
+    analytics/cycle_analytics/stages/issue/records.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>55}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>56}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>62}
+    analytics/cycle_analytics/stages/issue/median.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>65}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>66}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>72}
+    analytics/cycle_analytics/stages/plan/records.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>75}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>76}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>82}
+    analytics/cycle_analytics/stages/plan/median.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>85}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>86}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>92}
+    analytics/cycle_analytics/stages/code/records.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>95}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>96}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>102}
+    analytics/cycle_analytics/stages/code/median.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>105}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>106}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>112}
+    analytics/cycle_analytics/stages/test/records.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>115}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>116}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>122}
+    analytics/cycle_analytics/stages/test/median.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>125}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>126}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>132}
+    analytics/cycle_analytics/stages/review/records.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>135}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>136}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>142}
+    analytics/cycle_analytics/stages/review/median.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>145}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>146}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>152}
+    analytics/cycle_analytics/stages/staging/records.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>155}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>156}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>162}
+    analytics/cycle_analytics/stages/staging/median.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>165}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>166}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>172}
+    analytics/cycle_analytics/stages/production/records.json
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>175}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>176}
+2015-07-03T10:00:00.000Z 46548 TID-ouyrltsaw WARN: {:class=>"ArchiveTraceWorker", :message=>"The job does not have live trace but going to be archived.", :job_id=>182}
+    analytics/cycle_analytics/stages/production/median.json
+  Analytics::TasksByTypeController
+    analytics/type_of_work/tasks_by_type.json
+
+Epics (JavaScript fixtures)
+  EpicPresenter (JavaScript fixtures)
+    epic/mock_meta.json
+  IssuablesHelper (JavaScript fixtures)
+    epic/mock_data.json
+
+Groups::SamlProvidersController (JavaScript fixtures)
+DEPRECATION WARNING: The success? predicate is deprecated and will be removed in Rails 6.0. Please use successful? as provided by Rack::Response::Helpers. (called from block (2 levels) in <main> at /Users/zain/Code/GitLab/gitlab-development-kit/gitlab/ee/spec/frontend/fixtures/saml_providers.rb:28)
+  groups/saml_providers/show.html
+
+Admin::AbuseReportsController (JavaScript fixtures)
+  abuse_reports/abuse_reports_list.html
+
+Admin::UsersController (JavaScript fixtures)
+  admin/users/new_with_internal_user_regex.html
+
+Admin::ApplicationSettingsController (JavaScript fixtures)
+  application_settings/accounts_and_limit.html
+
+Projects::AutocompleteSourcesController (JavaScript fixtures)
+  autocomplete_sources/labels.json
+
+Projects::BlobController (JavaScript fixtures)
+  blob/show.html
+
+Projects::BoardsController (JavaScript fixtures)
+  boards/show.html
+
+Projects::BranchesController (JavaScript fixtures)
+  branches/new_branch.html
+
+Projects::ClustersController (JavaScript fixtures)
+  clusters/show_cluster.html
+
+Projects::CommitController (JavaScript fixtures)
+  commit/show.html
+
+Projects::DeployKeysController (JavaScript fixtures)
+  deploy_keys/keys.json
+
+Groups (JavaScript fixtures)
+  GroupsController (JavaScript fixtures)
+    groups/edit.html
+  Groups::Settings::CiCdController (JavaScript fixtures)
+    groups/ci_cd_settings.html
+
+Projects::IssuesController (JavaScript fixtures)
+  issues/new-issue.html
+  issues/open-issue.html
+  issues/closed-issue.html
+  issues/issue-with-task-list.html
+  issues/issue_with_comment.html
+  issues/issue_list.html
+
+API::Issues (JavaScript fixtures)
+  issues/related_merge_requests.json
+
+Projects::JobsController (JavaScript fixtures)
+  builds/build-with-artifacts.html
+  jobs/delayed.json
+
+Labels (JavaScript fixtures)
+  Groups::LabelsController (JavaScript fixtures)
+    labels/group_labels.json
+  Projects::LabelsController (JavaScript fixtures)
+    labels/project_labels.json
+
+Projects::MergeRequestsController (JavaScript fixtures)
+  merge_requests/merge_request_of_current_user.html
+  merge_requests/merge_request_with_task_list.html
+  merge_requests/merged_merge_request.html
+  merge_requests/diff_comment.html
+  merge_requests/merge_request_with_comment.html
+  merge_requests/discussions.json
+  merge_requests/diff_discussion.json
+  merge_requests/resolved_diff_discussion.json
+  with image diff
+    merge_requests/image_diff_discussion.json
+
+Projects::MergeRequests::DiffsController (JavaScript fixtures)
+  merge_request_diffs/with_commit.json
+  merge_request_diffs/inline_changes_tab_with_comments.json
+  merge_request_diffs/parallel_changes_tab_with_comments.json
+
+Projects::PipelineSchedulesController (JavaScript fixtures)
+  pipeline_schedules/edit.html
+  pipeline_schedules/edit_with_variables.html
+
+Projects::PipelinesController (JavaScript fixtures)
+  pipelines/pipelines.json
+
+Projects (JavaScript fixtures)
+  ProjectsController (JavaScript fixtures)
+    projects/dashboard.html
+/Users/zain/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0/delegate.rb:100: warning: delegator does not forward private method #to_ary
+    projects/overview.html
+    projects/edit.html
+  Projects::Settings::CiCdController (JavaScript fixtures)
+    projects/ci_cd_settings.html
+    projects/ci_cd_settings_with_variables.html
+
+Projects::ServicesController (JavaScript fixtures)
+  services/prometheus/prometheus_service.html
+
+Raw files (JavaScript fixtures)
+  blob/balsamiq/test.bmpr
+  blob/notebook/basic.json
+  blob/notebook/worksheets.json
+  blob/notebook/math.json
+  blob/pdf/test.pdf
+
+SearchController (JavaScript fixtures)
+  search/show.html
+
+Projects::ServicesController (JavaScript fixtures)
+  services/edit_service.html
+
+Sessions (JavaScript fixtures)
+  SessionsController (JavaScript fixtures)
+    sessions/new.html
+
+SnippetsController (JavaScript fixtures)
+  snippets/show.html
+
+Projects::PipelinesController (JavaScript fixtures)
+  pipelines/test_report.json
+
+Todos (JavaScript fixtures)
+  Dashboard::TodosController (JavaScript fixtures)
+    todos/todos.html
+  Projects::TodosController (JavaScript fixtures)
+    todos/todos.json
+
+U2F
+  SessionsController (JavaScript fixtures)
+    u2f/authenticate.html
+  Profiles::TwoFactorAuthsController (JavaScript fixtures)
+    u2f/register.html
+
+Finished in 10 minutes 13 seconds (files took 1 minute 20.9 seconds to load)
+85 examples, 0 failures
+
+$ yarn jest
+Test Suites: 5 failed, 763 passed, 768 total
+Tests:       8 failed, 6 skipped, 7604 passed, 7618 total
+Snapshots:   176 passed, 176 total
+Time:        149.243s
+
+$ gdk stop
+(in /Users/zain/Code/GitLab/gitlab-development-kit)
+ok: down: ./services/rails-background-jobs: 27114s
+ok: down: ./services/rails-web: 27114s
+ok: down: ./services/gitlab-pages: 0s
+ok: down: ./services/gitlab-workhorse: 0s
+ok: down: ./services/jaeger: 0s
+ok: down: ./services/postgresql: 0s
+ok: down: ./services/praefect: 0s
+ok: down: ./services/praefect-gitaly-0: 0s
+ok: down: ./services/redis: 0s
+ok: down: ./services/webpack: 0s
+Shutting down runsvdir (pid 46159)
+```
+
+</details>
